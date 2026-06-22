@@ -1,0 +1,118 @@
+/* =============================================================================
+   DHCW / NHS Wales Design System — Design Tokens
+   -----------------------------------------------------------------------------
+   SINGLE SOURCE OF TRUTH for brand values used by the playbook.
+   extra.css consumes these tokens — do not hard-code colours/sizes there.
+
+   PROVENANCE LEGEND (so a designer can diff this file against Figma):
+     [FIGMA]   Read directly from Figma via the Dev Mode MCP server.
+               File: "DHCW Design System V2" (fileKey RplwUuFizhzeH1ng7M0SMO).
+               Cited with the Figma variable/style name and node id.
+     [FIGMA*]  A matching Figma *style/variable name* exists in the DHCW
+               "Component Library" org library (found via MCP search), but its
+               hex is not addressable through MCP; value resolved from [LIB].
+     [LIB]     Resolved from the published NHS Wales component library CSS
+               https://dhcw-digital-health-and-care-wales.github.io/
+               nhsw-component-library/dist/nhsw.css  (cited with line number).
+     [NHSUK]   NHS UK frontend convention — service-manual.nhs.uk/design-system.
+     [FALLBACK] Could NOT be traced to Figma or the component library — see the
+               FLAGGED NOTES block at the foot of this file (and the PR).
+
+   WHY MOSTLY [LIB]/[FIGMA*]:
+   The Figma node in the brief (2034-5898) and its file contain ONLY a cover
+   page; the component/token library lives in a separate org library whose nodes
+   are not addressable through the MCP. FOUR foundational variables ARE readable
+   from the cover and are tagged [FIGMA] — and they match the published library
+   exactly, which validates using the library CSS as the authoritative source
+   for the remaining values.
+   ============================================================================= */
+
+:root {
+  /* ---- Brand blues --------------------------------------------------------- */
+  --dhcw-nhs-wales-blue: #005eb8; /* [LIB nhsw.css:1933 .nhsw-link] NHS Wales/NHS blue — links, accents, header */
+  --dhcw-navy:           #1b365d; /* [FIGMA] variable "Background/background-blue" node 2034:5900 · [LIB nhsw.css:2256 .nhsw-site-header, :1836 .nhsw-button--primary] */
+  --dhcw-navy-hover:     #1b2a49; /* [LIB nhsw.css:1842] navy hover */
+  --dhcw-navy-dark:      #0e1b2f; /* [LIB nhsw.css:1839] navy shadow / active */
+  --dhcw-dark-blue:      #003087; /* [LIB nhsw.css:1941 .nhsw-link:hover] link hover / active */
+  --dhcw-purple:         #7c2855; /* [LIB nhsw.css:1938 .nhsw-link:visited] visited link */
+
+  /* ---- Text ---------------------------------------------------------------- */
+  --dhcw-text:           #212b32; /* [FIGMA] variable "Text/text-default" node 2034:5902 · [LIB pervasive] body text */
+  --dhcw-text-inverse:   #ffffff; /* [FIGMA] variable "Text/text-white" node 2034:5900 */
+  --dhcw-text-secondary: #4c6272; /* [FIGMA* style "Text/text-secondary"] · [LIB nhsw.css:1852] muted / secondary text */
+
+  /* ---- Surfaces & borders -------------------------------------------------- */
+  --dhcw-bg:             #f0f4f5; /* [FIGMA] variable "Background/background-grey" node 2034:5898 · [LIB nhsw.css:2050 body] page background */
+  --dhcw-surface:        #ffffff; /* [LIB nhsw.css:2220 .nhsw-card] content/card surface */
+  --dhcw-border:         #d8dde0; /* [LIB nhsw.css:1495, 2221] grey borders / rules */
+  --dhcw-row-hover:      #f0f4f5; /* [LIB nhsw.css:1521 .nhsw-table__row:hover] */
+
+  /* ---- Feedback ------------------------------------------------------------ */
+  --dhcw-red:            #d5281b; /* [FIGMA* style "Button/button-warning"] · [LIB nhsw.css:1878] error / danger / urgent */
+  --dhcw-red-dark:       #902419; /* [LIB nhsw.css:1884] danger hover */
+  --dhcw-green:          #007f3b; /* [LIB nhsw.css:2016 .nhsw-action-link__icon] success / positive */
+  --dhcw-green-dark:     #00662f; /* [LIB nhsw.css:1994] success hover */
+  --dhcw-warning:        #facc15; /* [LIB nhsw.css:2152 callout heading bg / :2161 border] warning callout */
+  --dhcw-warning-bg:     #fef9c3; /* [LIB nhsw.css:2162 .nhsw-warning-callout__content] warning callout body */
+  --dhcw-exceptional:    #f5bb66; /* [FIGMA* style "Button/button-exceptional" — ON BLUE backgrounds only] · [LIB nhsw.css:1863] */
+
+  /* ---- Focus (NHS high-visibility focus indicator) ------------------------- */
+  --dhcw-focus:          #ffeb3b; /* [LIB nhsw.css:1818, 1945, 1997] focus highlight yellow */
+  --dhcw-focus-text:     #212b32; /* [LIB nhsw.css:1819] text colour on focus */
+  --dhcw-focus-bar:      #212b32; /* [LIB nhsw.css:1821, 1956] dark underline / box-shadow on focus */
+
+  /* ---- Typography ---------------------------------------------------------- */
+  --dhcw-font:        "Roboto", Arial, sans-serif;                         /* [LIB nhsw.css font-family] + Figma cover uses Roboto */
+  --dhcw-font-mono:   "Roboto Mono", "Courier New", Courier, monospace;    /* [LIB uses "Courier New"]; Roboto Mono retained for legibility (see PR) */
+  --dhcw-weight-normal: 400; /* [LIB] */
+  --dhcw-weight-bold:   700; /* [LIB nhsw.css:1808] */
+  --dhcw-weight-bolder: 800; /* [LIB nhsw.css:2405 nav links] */
+
+  /* Type scale — NHS UK scale; every value below is present in nhsw.css. */
+  --dhcw-fs-hero:  3rem;      /* 48px — hero (rare)                         [LIB/NHSUK] */
+  --dhcw-fs-h1:    2.25rem;   /* 36px — h1                                  [LIB/NHSUK] */
+  --dhcw-fs-h2:    1.625rem;  /* 26px — h2 (nhsw.css:2230 card title)       [LIB] */
+  --dhcw-fs-h3:    1.375rem;  /* 22px — h3 (nhsw.css:1490 table caption)    [LIB] */
+  --dhcw-fs-h4:    1.1875rem; /* 19px — h4 / desktop body (nhsw.css:51)     [LIB] */
+  --dhcw-fs-body:  1rem;      /* 16px — base body (nhsw.css:37); 19px >=40em [LIB] */
+  --dhcw-fs-small: 0.875rem;  /* 14px — small print                         [LIB] */
+  --dhcw-lh-body:    1.47368; /* [LIB nhsw.css:1477] */
+  --dhcw-lh-heading: 1.2;     /* [NHSUK] */
+
+  /* ---- Spacing (8px rhythm) ------------------------------------------------ */
+  --dhcw-space-1: 4px;  /* [LIB nhsw.css:35] */
+  --dhcw-space-2: 8px;  /* [LIB nhsw.css:29] */
+  --dhcw-space-3: 16px; /* [LIB nhsw.css:2]  */
+  --dhcw-space-4: 24px; /* [LIB nhsw.css:6]  */
+  --dhcw-space-5: 32px; /* [LIB nhsw.css:2182] */
+  --dhcw-space-6: 40px; /* [LIB nhsw.css:1469] */
+  --dhcw-space-7: 48px; /* [LIB nhsw.css:1478] */
+
+  /* ---- Radius -------------------------------------------------------------- */
+  --dhcw-radius:      4px;  /* [LIB nhsw.css:1805 .nhsw-button] default */
+  --dhcw-radius-sm:   3px;  /* [LIB] */
+  --dhcw-radius-pill: 50%;  /* [LIB] circular controls */
+
+  /* ---- Elevation (NHS solid offset shadows) -------------------------------- */
+  --dhcw-shadow-card:   0 4px 0 var(--dhcw-border); /* [LIB nhsw.css:2222 .nhsw-card] */
+  --dhcw-shadow-button: 0 2px 0 var(--dhcw-navy-dark); /* [LIB nhsw.css:1839 .nhsw-button--primary] */
+}
+
+/* =============================================================================
+   FLAGGED / FALLBACK NOTES  (also summarised in the PR)
+   -----------------------------------------------------------------------------
+   1. "DHCW Blue" accent: the brief lists a distinct accent/"DHCW blue", but NO
+      such token exists in the linked Figma file or the component library. The
+      system uses NHS Wales Blue #005EB8 for links/accents (--dhcw-nhs-wales-blue)
+      with hover #003087. The previous extra.css defined --dhcw-blue: #12A3C9,
+      which is (a) untraceable to either authorized source and (b) fails WCAG 2.1
+      AA for body text on white (~2.6:1). It has been REMOVED. If DHCW brand
+      defines a cyan accent, add it as a Figma variable and add a token here.
+   2. "Warning yellow": previous extra.css used #F8CA4D (untraceable). Replaced
+      with the library's exact warning palette: #FACC15 + #FEF9C3 (focus #FFEB3B).
+   3. Headings & table-header rows: the brief specifies NAVY (#1B365D). The live
+      library renders headings in #212B32 and tables with no header fill; the
+      brief's navy choice is honoured here as an intentional divergence
+      (AA: navy on white & white on navy both ~11.9:1).
+   4. Code font: library uses "Courier New"; Roboto Mono retained for legibility.
+   ============================================================================= */
