@@ -1,10 +1,15 @@
-# Builds the site on every push to main and publishes it to GitHub Pages.
+# Builds the site with Zensical. On pull requests it builds only (validation,
+# with --strict so broken links / warnings fail the check); on push to main it
+# also publishes to GitHub Pages.
 # In your repo, go to Settings > Pages and set "Source" to "GitHub Actions".
 
-name: Deploy site
+name: Build and deploy site
 
 on:
   push:
+    branches:
+      - main
+  pull_request:
     branches:
       - main
 
@@ -32,6 +37,8 @@ jobs:
 
   deploy:
     needs: build
+    # Publish only on push to main; pull requests run the build job alone.
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
