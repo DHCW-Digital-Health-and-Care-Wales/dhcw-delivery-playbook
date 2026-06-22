@@ -22,7 +22,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: mkdocs build --strict
+      # Zensical reads mkdocs.yml natively and outputs to site/ by default.
+      # --strict fails the build on warnings/broken links (the mkdocs --strict
+      # equivalent); --clean clears the build cache.
+      - run: zensical build --strict --clean
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
