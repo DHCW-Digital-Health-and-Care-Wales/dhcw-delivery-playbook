@@ -1,10 +1,15 @@
-# Builds the site on every push to main and publishes it to GitHub Pages.
+# Builds the site with Zensical. On pull requests it builds only (validation,
+# with --strict so broken links / warnings fail the check); on push to main it
+# also publishes to GitHub Pages.
 # In your repo, go to Settings > Pages and set "Source" to "GitHub Actions".
 
-name: Deploy site
+name: Build and deploy site
 
 on:
   push:
+    branches:
+      - main
+  pull_request:
     branches:
       - main
 
@@ -22,13 +27,18 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: mkdocs build --strict
+      # Zensical reads mkdocs.yml natively and outputs to site/ by default.
+      # --strict fails the build on warnings/broken links (the mkdocs --strict
+      # equivalent); --clean clears the build cache.
+      - run: zensical build --strict --clean
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
   deploy:
     needs: build
+    # Publish only on push to main; pull requests run the build job alone.
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

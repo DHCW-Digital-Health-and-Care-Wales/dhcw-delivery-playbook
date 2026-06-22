@@ -1,1 +1,4 @@
-mkdocs-material>=9.5
+# Zensical — the actively maintained successor to Material for MkDocs from the
+# same team. Reads mkdocs.yml natively. https://zensical.org
+# Pre-1.0: review the changelog before bumping (https://zensical.org/docs/changelog/).
+zensical>=0.0.46

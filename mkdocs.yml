@@ -16,7 +16,7 @@ theme:
   name: material
   language: en
   font:
-    text: Rubik
+    text: Roboto
     code: Roboto Mono
   palette:
     - scheme: default
@@ -44,6 +44,7 @@ theme:
     - content.action.view
 
 extra_css:
+  - stylesheets/_tokens.css
   - stylesheets/extra.css
 
 markdown_extensions:
@@ -56,18 +57,26 @@ markdown_extensions:
   - toc:
       permalink: true
 
+# Grouped, hierarchical navigation mirroring the "shape of delivery" set out in
+# docs/index.md. Sections render via the navigation.sections theme feature.
+# Every page and filename is preserved; only grouping and label casing changed.
 nav:
   - Home: index.md
-  - The service lifecycle: service-lifecycle.md
-  - Team roles: team-roles.md
-  - Before Sprint 1: before-sprint-1.md
-  - Backlog structure: backlog-structure.md
-  - Ceremonies: ceremonies.md
-  - Backlog management: backlog-management.md
-  - Bug management: bug-management.md
-  - Delivery plans and risk: delivery-plans-and-risk.md
-  - Metrics and reporting: metrics-and-reporting.md
-  - Engineering practice: engineering-practice.md
-  - Working in the open: working-in-the-open.md
-  - Reference and further reading: reference.md
-  - Playbook Resources: playbook-resources.md
+  - Getting started:
+      - The service lifecycle: service-lifecycle.md
+      - Team roles: team-roles.md
+      - Before Sprint 1: before-sprint-1.md
+  - Planning and running the work:
+      - Backlog structure: backlog-structure.md
+      - Ceremonies: ceremonies.md
+      - Backlog management: backlog-management.md
+  - Quality and risk:
+      - Bug management: bug-management.md
+      - Delivery plans and risk: delivery-plans-and-risk.md
+  - Measurement and engineering:
+      - Metrics and reporting: metrics-and-reporting.md
+      - Engineering practice: engineering-practice.md
+      - Working in the open: working-in-the-open.md
+  - Reference:
+      - Reference and further reading: reference.md
+      - Playbook resources: playbook-resources.md

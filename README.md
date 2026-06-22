@@ -2,7 +2,7 @@
 
 The source for the DHCW Product and Service Delivery Playbook, published as a website.
 
-The content lives as Markdown in `docs/`. The site is built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and published to GitHub Pages automatically on every push to `main`.
+The content lives as Markdown in `docs/`. The site is built with [Zensical](https://zensical.org) — the actively maintained successor to Material for MkDocs from the same team — and published to GitHub Pages automatically on every push to `main`.
 
 ## Read it online
 
@@ -14,10 +14,10 @@ You need Python 3.10 or newer.
 
 ```bash
 pip install -r requirements.txt
-mkdocs serve
+zensical serve
 ```
 
-Then open `http://127.0.0.1:8000`. The site rebuilds as you edit any file in `docs/`.
+Then open `http://localhost:8000`. The site rebuilds as you edit any file in `docs/`. To produce the static site without serving it, run `zensical build --strict --clean` (output goes to `site/`).
 
 ## Make a change
 
@@ -29,7 +29,9 @@ Every page on the site has an "Edit this page" pencil that takes you straight to
 
 ## A note on tooling
 
-The same Markdown content can also be built with [Zensical](https://zensical.org), the actively developed successor to Material for MkDocs from the same team. Zensical reads this `mkdocs.yml` natively, so moving across is a small change when you choose to.
+This site is built with [Zensical](https://zensical.org), the actively developed successor to Material for MkDocs from the same team. Zensical reads this `mkdocs.yml` natively — the same config and Markdown that Material for MkDocs used — so the theme, navigation, and brand styling render the same way.
+
+The brand is driven by design tokens in `docs/stylesheets/_tokens.css` (sourced from the DHCW/NHS Wales design system and the NHS Wales component library), which `docs/stylesheets/extra.css` consumes. Adjust a colour or size once in `_tokens.css` and it flows through the whole site.
 
 ## Contributing
 
