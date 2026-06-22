@@ -1,16 +1,18 @@
 /* DHCW brand palette applied to Material for MkDocs.
-   Navy #1B294A, DHCW Blue #12A3C9, NHS Wales Blue #325083, Yellow #F8CA4D. */
+   Colours sourced from the DHCW/NHS Wales component library:
+   https://dhcw-digital-health-and-care-wales.github.io/nhsw-component-library/
+   NHS Wales Blue #005EB8, Dark Navy #1B365D, DHCW Blue #12A3C9, Yellow #F8CA4D. */
 
 :root {
-  --dhcw-navy: #1B294A;
+  --dhcw-navy: #1b365d;
   --dhcw-blue: #12A3C9;
-  --nhs-wales-blue: #325083;
+  --nhs-wales-blue: #005eb8;
   --dhcw-yellow: #F8CA4D;
 
   /* Header and primary surfaces use NHS Wales Blue. */
-  --md-primary-fg-color: #325083;
-  --md-primary-fg-color--light: #46689f;
-  --md-primary-fg-color--dark: #1B294A;
+  --md-primary-fg-color: #005eb8;
+  --md-primary-fg-color--light: #2e7dd1;
+  --md-primary-fg-color--dark: #1b365d;
 
   /* Links and interactive accents use DHCW Blue. */
   --md-accent-fg-color: #12A3C9;
@@ -28,14 +30,15 @@
   color: var(--dhcw-blue);
 }
 
-/* Yellow accent on the title bar bottom border. */
+/* Yellow accent on the header bottom border, matching the nhsw-component-library
+   warning callout yellow used for high-visibility brand elements. */
 .md-header {
   border-bottom: 3px solid var(--dhcw-yellow);
 }
 
-/* Tables: navy header row, readable borders. */
+/* Tables: navy header row matching the nhsw-component-library dark navy. */
 .md-typeset table:not([class]) th {
-  background-color: var(--nhs-wales-blue);
+  background-color: var(--dhcw-navy);
   color: #ffffff;
 }
 
@@ -47,6 +50,17 @@
 .md-typeset .note > .admonition-title,
 .md-typeset .note > summary {
   background-color: rgba(18, 163, 201, 0.1);
+}
+
+/* "Warning" admonitions use NHS Wales yellow, matching the nhsw-warning-callout
+   pattern from the component library. */
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: var(--dhcw-yellow);
+}
+.md-typeset .warning > .admonition-title,
+.md-typeset .warning > summary {
+  background-color: rgba(248, 202, 77, 0.2);
 }
 
 /* "Example" admonitions tinted to DHCW Yellow. */
