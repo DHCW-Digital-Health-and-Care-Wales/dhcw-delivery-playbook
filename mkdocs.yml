@@ -1,0 +1,72 @@
+# MkDocs configuration.
+# This file also works with Zensical, which reads mkdocs.yml natively.
+# Configured for DHCW-Digital-Health-and-Care-Wales/dhcw-delivery-playbook.
+
+site_name: DHCW Delivery Playbook
+site_description: How we build and maintain happy teams that deliver world-leading digital products and services for the people of Wales.
+site_author: Digital Health and Care Wales
+copyright: Copyright &copy; 2026 Digital Health and Care Wales
+
+# These three lines drive the "Edit this page" links and the repo button.
+repo_url: https://github.com/DHCW-Digital-Health-and-Care-Wales/dhcw-delivery-playbook
+repo_name: DHCW-Digital-Health-and-Care-Wales/dhcw-delivery-playbook
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Rubik
+    code: Roboto Mono
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.action.view
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - The service lifecycle: service-lifecycle.md
+  - Team roles: team-roles.md
+  - Before Sprint 1: before-sprint-1.md
+  - Backlog structure: backlog-structure.md
+  - Ceremonies: ceremonies.md
+  - Backlog management: backlog-management.md
+  - Bug management: bug-management.md
+  - Delivery plans and risk: delivery-plans-and-risk.md
+  - Metrics and reporting: metrics-and-reporting.md
+  - Engineering practice: engineering-practice.md
+  - Working in the open: working-in-the-open.md
+  - Reference and further reading: reference.md
