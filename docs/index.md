@@ -3,7 +3,7 @@
 *How we build and maintain happy teams that deliver world-leading digital products and services for the people of Wales.*
 
 !!! note "Draft for Discussion"
-    **Version 0.2** &middot; 17 June 2026 &middot; Owner: Digital Health and Care Wales
+    **Version 0.3** &middot; 22 June 2026 &middot; Owner: Digital Health and Care Wales
 
     This is a living document. It will improve as more teams use it and contribute back.
 
