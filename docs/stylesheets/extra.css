@@ -20,8 +20,8 @@
   --md-primary-fg-color--dark:  var(--dhcw-navy);
   --md-primary-bg-color:        var(--dhcw-text-inverse);
 
-  --md-accent-fg-color:         var(--dhcw-dark-blue);
-  --md-typeset-a-color:         var(--dhcw-nhs-wales-blue);
+  --md-accent-fg-color:         var(--dhcw-link-hover);
+  --md-typeset-a-color:         var(--dhcw-link);
 
   --md-default-fg-color:        var(--dhcw-text);
 
@@ -73,10 +73,10 @@
       links, nav, buttons, search box.  (Brief: Part 2 "Focus states".)
    --------------------------------------------------------------------------- */
 .md-typeset a:visited {
-  color: var(--dhcw-purple); /* NHS visited-link convention (content only) */
+  color: var(--dhcw-link-visited); /* $nhswales-link-visited-colour #330072 [FIGMA 7:10] */
 }
 .md-typeset a:hover {
-  color: var(--dhcw-dark-blue);
+  color: var(--dhcw-link-hover); /* $nhswales-link-hover-colour #7C2855 [FIGMA 7:10] */
 }
 
 /* Text links — NHS focus mixin: yellow highlight + dark underline bar. */
@@ -180,7 +180,7 @@
 .md-typeset .info > summary,
 .md-typeset .abstract > .admonition-title,
 .md-typeset .abstract > summary {
-  background-color: rgba(0, 94, 184, 0.1); /* 10% tint of --dhcw-nhs-wales-blue */
+  background-color: rgba(0, 90, 168, 0.1); /* 10% tint of --dhcw-link #005AA8 [FIGMA 7:10] */
   color: var(--dhcw-text);
 }
 .md-typeset .note > .admonition-title::before,
