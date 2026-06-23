@@ -107,6 +107,7 @@
    4. Header & footer — navy brand edge under the blue header bar.
    --------------------------------------------------------------------------- */
 .md-header {
+  background-color: var(--dhcw-navy); /* navy masthead — the design-system header colour; the white logo sits here */
   border-bottom: 4px solid var(--dhcw-navy);
 }
 .md-footer {

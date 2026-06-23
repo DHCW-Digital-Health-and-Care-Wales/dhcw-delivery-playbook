@@ -15,6 +15,11 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: en
+  # GIG CYMRU / NHS WALES masthead logo — white SVG, sits on the navy header.
+  # Source: DHCW NHS Wales component library (docs/assets/nhsw-logo.svg).
+  logo: assets/nhsw-logo.svg
+  # TODO (favicon): add a coloured/mono NHS Wales mark sized for browser tabs;
+  # the masthead logo above is white-on-transparent and won't show on a light tab.
   font:
     text: Roboto
     code: Roboto Mono
