@@ -111,6 +111,7 @@
    --------------------------------------------------------------------------- */
 .md-header {
   background-color: var(--dhcw-navy); /* navy masthead — the design-system header colour; the white logo sits here */
+  color: var(--dhcw-text-inverse); /* force white header text/icons on navy — no dark-on-dark */
   border-bottom: 4px solid var(--dhcw-navy);
 }
 .md-footer {
@@ -355,5 +356,20 @@
   font-size: var(--dhcw-fs-small);
 }
 .md-path__link {
-  color: var(--dhcw-link);
+  color: var(--md-typeset-a-color); /* scheme-aware link colour (works in light and dark mode) */
+}
+
+/* -----------------------------------------------------------------------------
+   10. Reduced motion — honour prefers-reduced-motion by removing theme
+       transitions, animations and smooth scrolling. (WCAG 2.3.3.)
+   --------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

@@ -33,6 +33,20 @@ This site is built with [Zensical](https://zensical.org), the actively developed
 
 The brand is driven by design tokens in `docs/stylesheets/_tokens.css` (sourced from the DHCW/NHS Wales design system and the NHS Wales component library), which `docs/stylesheets/extra.css` consumes. Adjust a colour or size once in `_tokens.css` and it flows through the whole site.
 
+## Accessibility
+
+The site targets WCAG 2.2 AA. Every pull request and every push runs an automated accessibility check in CI ([pa11y-ci](https://github.com/pa11y/pa11y-ci) with the axe-core runner, configured in `.pa11yci.json`); the build fails on serious violations, and the site only deploys when the check passes.
+
+The brand tokens in `docs/stylesheets/_tokens.css` are chosen to meet AA contrast (body text and links at least 4.5:1, large text and UI at least 3:1), the keyboard focus indicator uses the NHS high-visibility yellow, there is a visible skip link, and motion respects `prefers-reduced-motion`.
+
+To run the check locally you need Node.js, then:
+
+```bash
+zensical build --clean
+npx http-server site -p 8080 &
+npx pa11y-ci
+```
+
 ## Contributing
 
 This is a living document. Raise an issue or open a pull request. Contributions via your Delivery Manager are welcome.
