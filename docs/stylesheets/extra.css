@@ -42,6 +42,8 @@
    --------------------------------------------------------------------------- */
 .md-typeset {
   font-family: var(--dhcw-font);
+  font-size: var(--dhcw-fs-body);
+  line-height: var(--dhcw-lh-body);
 }
 
 .md-typeset h1,
@@ -55,6 +57,7 @@
 .md-typeset h2 { font-size: var(--dhcw-fs-h2); }
 .md-typeset h3 { font-size: var(--dhcw-fs-h3); }
 .md-typeset h4 { font-size: var(--dhcw-fs-h4); color: var(--dhcw-text); }
+.md-typeset h5 { font-size: var(--dhcw-fs-h5); color: var(--dhcw-text); }
 
 [data-md-color-scheme="slate"] .md-typeset h1,
 [data-md-color-scheme="slate"] .md-typeset h2,
@@ -340,4 +343,17 @@
 }
 .md-footer__link:hover {
   background-color: var(--dhcw-navy-dark);
+}
+
+/* Breadcrumbs (navigation.path) — NHS Wales wayfinding above the page title.
+   Material renders the chevron separators and link colours; this sets the
+   breadcrumb apart from the content with a clear rule and spacing. */
+.md-path {
+  margin: 0 0 var(--dhcw-space-4);
+  padding-bottom: var(--dhcw-space-3);
+  border-bottom: 1px solid var(--dhcw-border);
+  font-size: var(--dhcw-fs-small);
+}
+.md-path__link {
+  color: var(--dhcw-link);
 }

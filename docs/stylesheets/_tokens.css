@@ -88,12 +88,12 @@
   --dhcw-focus-bar:  #212b32; /* dark underline / box-shadow on focus */
 
   /* ===========================================================================
-     TYPOGRAPHY
-     Roboto confirmed in Figma Typography frame (2:47). The px scale below is the
-     NHS.UK/component-library scale currently shipping. NOTE: the Figma desktop
-     scale differs (H1 48/54, H2 36/42, H3 26/32, H4 22/30, H5 19/28, Body 19/28)
-     and is reconciled in the typography step — values left unchanged here so the
-     Colours implementation stays scoped.
+     TYPOGRAPHY — Figma Typography frame (2:47). Roboto; headings Bold (700),
+     body Regular (400). Sizes are the design system's desktop values in px;
+     the mobile values (below the 641px tablet breakpoint) are applied in the
+     media query after :root. px is used deliberately — the theme scales the
+     root font-size up responsively (125% → 150%), so rem values render larger
+     than their nominal px; fixed px pins the scale to the Figma spec.
      =========================================================================== */
   --dhcw-font:        "Roboto", Arial, sans-serif;                         /* [FIGMA 2:47] Roboto */
   --dhcw-font-mono:   "Roboto Mono", "Courier New", Courier, monospace;    /* [LIB uses "Courier New"]; Roboto Mono retained for legibility */
@@ -101,15 +101,16 @@
   --dhcw-weight-bold:   700; /* [FIGMA 2:47] headings Bold */
   --dhcw-weight-bolder: 800; /* [NHSUK] nav links */
 
-  /* Type scale — current NHS.UK/library scale (see note above). */
-  --dhcw-fs-hero:  3rem;      /* 48px — hero / Figma H1                      [NHSUK] */
-  --dhcw-fs-h1:    2.25rem;   /* 36px — h1 / Figma H2                        [NHSUK] */
-  --dhcw-fs-h2:    1.625rem;  /* 26px — h2 / Figma H3                        [NHSUK] */
-  --dhcw-fs-h3:    1.375rem;  /* 22px — h3 / Figma H4                        [NHSUK] */
-  --dhcw-fs-h4:    1.1875rem; /* 19px — h4 / desktop body                    [NHSUK] */
-  --dhcw-fs-body:  1rem;      /* 16px — base body; 19px >=40em               [NHSUK] */
-  --dhcw-fs-small: 0.875rem;  /* 14px — small print                         [NHSUK] */
-  --dhcw-lh-body:    1.47368; /* [NHSUK] */
+  /* Type scale — Figma desktop px (mobile values in the media query below). */
+  --dhcw-fs-hero:  48px; /* = H1                       [FIGMA 2:47] */
+  --dhcw-fs-h1:    48px; /* H1 Heading-XL (mobile 32px) [FIGMA 2:47] */
+  --dhcw-fs-h2:    36px; /* H2 Heading-L  (mobile 27px) [FIGMA 2:47] */
+  --dhcw-fs-h3:    26px; /* H3 Heading-M  (mobile 22px) [FIGMA 2:47] */
+  --dhcw-fs-h4:    22px; /* H4 Heading-S  (mobile 19px) [FIGMA 2:47] */
+  --dhcw-fs-h5:    19px; /* H5 Heading-XS (mobile 16px) [FIGMA 2:47] */
+  --dhcw-fs-body:  19px; /* Body desktop  (mobile 16px) [FIGMA 2:47] */
+  --dhcw-fs-small: 16px; /* Body-S                      [FIGMA 2:47] */
+  --dhcw-lh-body:    1.47368; /* 28/19 ≈ [FIGMA 2:47] */
   --dhcw-lh-heading: 1.2;     /* [NHSUK] */
 
   /* ===========================================================================
@@ -133,6 +134,19 @@
   --dhcw-shadow-button: 0 2px 0 var(--dhcw-shadow-primary); /* $nhswales-primary-button-shadow [FIGMA 7:10 · 7:66] */
 }
 
+/* Mobile type scale — below the NHS Wales tablet breakpoint (641px) the
+   headings and body step down to the Figma mobile sizes. */
+@media screen and (max-width: 640px) {
+  :root {
+    --dhcw-fs-h1:   32px; /* [FIGMA 2:47] */
+    --dhcw-fs-h2:   27px; /* [FIGMA 2:47] */
+    --dhcw-fs-h3:   22px; /* [FIGMA 2:47] */
+    --dhcw-fs-h4:   19px; /* [FIGMA 2:47] */
+    --dhcw-fs-h5:   16px; /* [FIGMA 2:47] */
+    --dhcw-fs-body: 16px; /* [FIGMA 2:47] */
+  }
+}
+
 /* =============================================================================
    FLAGGED / FALLBACK NOTES  (also summarised in the PR)
    -----------------------------------------------------------------------------
@@ -150,6 +164,7 @@
    4. "Never text on yellow." The only yellow in use is the focus indicator
       (#FFEB3B) which carries black text/underline (#212B32) at ~16:1 — the NHS
       high-visibility focus pattern, not decorative text on yellow.
-   5. Type scale is still the NHS.UK/library scale; the Figma Typography frame
-      (2:47) desktop scale differs and is reconciled in the typography step.
+   5. Type scale now matches the Figma Typography frame (2:47): desktop px with a
+      mobile step at 641px. px is used because the theme scales the root font-size
+      up responsively, which would otherwise inflate rem-based sizes past spec.
    ============================================================================= */

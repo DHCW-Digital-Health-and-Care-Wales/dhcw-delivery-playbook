@@ -39,6 +39,7 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
+    - navigation.path
     - navigation.sections
     - navigation.top
     - navigation.footer
