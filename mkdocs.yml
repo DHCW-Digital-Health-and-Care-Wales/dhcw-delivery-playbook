@@ -52,6 +52,10 @@ extra_css:
   - stylesheets/_tokens.css
   - stylesheets/extra.css
 
+# Remove the default "Made with Material for MkDocs" generator notice.
+extra:
+  generator: false
+
 markdown_extensions:
   - admonition
   - pymdownx.details
