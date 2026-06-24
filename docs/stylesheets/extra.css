@@ -107,6 +107,7 @@
    4. Header & footer — navy brand edge under the blue header bar.
    --------------------------------------------------------------------------- */
 .md-header {
+  background-color: var(--dhcw-navy); /* navy masthead — the design-system header colour; the white logo sits here */
   border-bottom: 4px solid var(--dhcw-navy);
 }
 .md-footer {
@@ -299,4 +300,44 @@
 .md-typeset .grid.cards > ol > li:hover,
 .md-typeset .card:hover {
   border-color: var(--dhcw-nhs-wales-blue);
+}
+
+/* -----------------------------------------------------------------------------
+   9. Chrome — skip link, side-navigation active state, footer legibility.
+      Native Material/Zensical elements re-styled to NHS Wales patterns; no new
+      components introduced. Header and footer background colours are in §4.
+   --------------------------------------------------------------------------- */
+
+/* Skip link — visually hidden until focused, then a solid navy block carrying
+   the NHS high-visibility focus highlight. */
+.md-skip {
+  background-color: var(--dhcw-navy);
+  color: var(--dhcw-text-inverse);
+  border-radius: 0;
+  padding: var(--dhcw-space-2) var(--dhcw-space-3);
+  font-weight: var(--dhcw-weight-bold);
+}
+.md-skip:focus {
+  outline: 3px solid var(--dhcw-focus);
+  outline-offset: 0;
+  box-shadow: 0 0 0 5px var(--dhcw-focus-bar);
+}
+
+/* Side navigation — mark the current page with a navy bar and bold weight.
+   Scoped to the light scheme; slate keeps its light-blue accent. */
+[data-md-color-scheme="default"] .md-nav__link--active,
+[data-md-color-scheme="default"] .md-nav__item--active > .md-nav__link {
+  color: var(--dhcw-navy);
+  font-weight: var(--dhcw-weight-bold);
+  box-shadow: inset 3px 0 0 var(--dhcw-navy);
+}
+
+/* Footer — keep the previous/next pagination and copyright legible on navy. */
+.md-footer__title,
+.md-footer__direction,
+.md-footer-copyright {
+  color: var(--dhcw-text-inverse);
+}
+.md-footer__link:hover {
+  background-color: var(--dhcw-navy-dark);
 }
