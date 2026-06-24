@@ -24,6 +24,7 @@
   --md-typeset-a-color:         var(--dhcw-link);
 
   --md-default-fg-color:        var(--dhcw-text);
+  --md-default-fg-color--light: var(--dhcw-text-secondary);
 
   --md-footer-bg-color:         var(--dhcw-navy);
   --md-footer-bg-color--dark:   var(--dhcw-navy-dark);
