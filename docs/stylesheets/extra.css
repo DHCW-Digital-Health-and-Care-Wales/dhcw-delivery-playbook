@@ -114,6 +114,21 @@
   color: var(--dhcw-text-inverse); /* force white header text/icons on navy — no dark-on-dark */
   border-bottom: 4px solid var(--dhcw-navy);
 }
+.md-header__title,
+.md-header__topic,
+.md-source__repository,
+.md-source__facts,
+.md-search__button {
+  color: var(--dhcw-text-inverse);
+}
+.md-search__button {
+  background-color: rgba(255, 255, 255, 0.14);
+}
+.md-search__button:hover,
+.md-search__button:focus {
+  background-color: rgba(255, 255, 255, 0.22);
+  color: var(--dhcw-text-inverse);
+}
 .md-footer {
   background-color: var(--dhcw-navy);
 }
@@ -339,7 +354,9 @@
 /* Footer — keep the previous/next pagination and copyright legible on navy. */
 .md-footer__title,
 .md-footer__direction,
-.md-footer-copyright {
+.md-footer-copyright,
+.md-copyright,
+.md-copyright__highlight {
   color: var(--dhcw-text-inverse);
 }
 .md-footer__link:hover {
