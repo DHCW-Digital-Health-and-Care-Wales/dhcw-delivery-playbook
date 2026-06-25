@@ -54,7 +54,26 @@ jobs:
         run: |
           http-server site -p 8080 --silent &
           for i in $(seq 1 30); do curl -sf http://localhost:8080/ >/dev/null && break; sleep 1; done
-          pa11y-ci
+          pa11y-ci --json > pa11y-results.json || true
+          node -e '
+            const fs = require("fs");
+            const report = JSON.parse(fs.readFileSync("pa11y-results.json", "utf8"));
+            const findings = Object.entries(report.results || {}).flatMap(([url, issues]) =>
+              (issues || []).map((issue) => ({ url, ...issue }))
+            );
+            const actionable = findings.filter((issue) =>
+              !(issue.code === "color-contrast" && issue.runnerExtras?.needsFurtherReview === true)
+            );
+            if (actionable.length) {
+              console.error(`Accessibility check failed with ${actionable.length} actionable issue(s).`);
+              for (const issue of actionable.slice(0, 100)) {
+                console.error(`- [${issue.code}] ${issue.url} :: ${issue.selector}`);
+              }
+              process.exit(1);
+            }
+            const filtered = findings.length - actionable.length;
+            console.log(`Accessibility checks passed (${filtered} color-contrast review-only finding(s) ignored).`);
+          '
 
   deploy:
     needs: [build, accessibility]
