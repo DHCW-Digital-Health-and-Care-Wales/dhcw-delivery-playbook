@@ -64,9 +64,10 @@ jobs:
             const actionable = findings.filter((issue) =>
               !(issue.code === "color-contrast" && issue.runnerExtras?.needsFurtherReview === true)
             );
+            const MAX_ISSUES_TO_DISPLAY = 100;
             if (actionable.length) {
               console.error(`Accessibility check failed with ${actionable.length} actionable issue(s).`);
-              for (const issue of actionable.slice(0, 100)) {
+              for (const issue of actionable.slice(0, MAX_ISSUES_TO_DISPLAY)) {
                 console.error(`- [${issue.code}] ${issue.url} :: ${issue.selector}`);
               }
               process.exit(1);
