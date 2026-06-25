@@ -19,7 +19,7 @@ Before we talk about AI, branching strategies, observability, or any of the tool
 
 We work closely with the User-Centred Design (UCD) team when needed, and that relationship is central to how we build products. User research, service design, interaction design, and accessibility are not stages that happen before or after engineering. They are woven into the way we think about what to build, who we're building it for, and whether it's working.
 
-For product owners, this means user needs drive the backlog. For engineers, it means the interfaces you build must reflect research, not assumptions. For delivery managers, it means protecting the space for user research and usability testing within the delivery cadence — not treating them as nice-to-haves that get squeezed out when time is short.
+For product owners, this means user needs drive the backlog. For engineers, it means the interfaces you build must reflect research, not assumptions. For delivery managers, it means protecting the space for user research and usability testing within the delivery cadence, rather than treating them as nice-to-haves that get squeezed out when time is short.
 
 Two commitments deserve explicit mention:
 
@@ -86,9 +86,9 @@ Key stat: by 2030, 50% of AI agent deployment failures will stem from insufficie
 
 ## 3. AI-Assisted Development: How We're Building Differently
 
-AI-assisted development isn't about replacing engineers with AI. It's about changing what engineers spend their time on. The shift is from execution to direction, from writing code to reasoning about systems. Communication — the ability to distil domain knowledge into clear, structured prompts — becomes the critical skill. This directly supports DHCW's fourth mission: driving better value and outcomes through innovation.
+AI-assisted development changes what engineers spend their time on rather than replacing them. The shift is from execution to direction, from writing code to reasoning about systems. Communication, the ability to distil domain knowledge into clear, structured prompts, becomes the critical skill. This directly supports DHCW's fourth mission: driving better value and outcomes through innovation.
 
-This is genuinely good news for a team that includes delivery managers, analysts, and product owners alongside engineers. The gap between "I have an idea" and "I have a working thing" has collapsed. If you've ever written a good user story, a clear acceptance criterion, or a technical spec that a developer could actually use, you already know how to work in this world.
+This is good news for a team that includes delivery managers, analysts, and product owners alongside engineers. The gap between "I have an idea" and "I have a working thing" has collapsed. If you've ever written a good user story, a clear acceptance criterion, or a technical spec that a developer could actually use, you already know how to work in this world.
 
 ### The bdfinst/agentic-dev-team Plugin
 
@@ -123,13 +123,13 @@ Quality engineering is undergoing a fundamental shift. The [Agentic QE Framework
 
 **Why this matters for PCMH:** Our current WIS test coverage sits at 59% automated, with 40,000 tests running daily. The Agentic QE model doesn't ask us to throw that away. It asks us to evolve it: have agents find coverage gaps and prioritise by risk, detect and stabilise flaky tests, and learn our codebase patterns over time. This is an evolution, not a revolution.
 
-**Connection to our quality principles:** Bryan Finster's "quality is user-defined" maps directly onto PACT's Targeted principle. "You build it, you run it" maps onto Autonomous. Small frequent delivery maps onto Proactive (catching problems early through continuous feedback). This isn't a new philosophy — it's our existing philosophy with better orchestration.
+**Connection to our quality principles:** Bryan Finster's "quality is user-defined" maps directly onto PACT's Targeted principle. "You build it, you run it" maps onto Autonomous. Small frequent delivery maps onto Proactive (catching problems early through continuous feedback). This is our existing philosophy with better orchestration, not a new one.
 
 ### The Agentic QE Fleet
 
-The open-source [Agentic QE Fleet](https://github.com/agentic-qe/fleet) is a practical implementation of these principles. It coordinates 60 specialised agents across test generation, coverage analysis, security scanning, and chaos engineering. It works best with Claude Code and integrates with 11 coding agent platforms. Crucially, it includes human checkpoints at pre-deploy and security stages — exactly the kind of guardrails we need for clinical systems.
+The open-source [Agentic QE Fleet](https://github.com/agentic-qe/fleet) is a practical implementation of these principles. It coordinates 60 specialised agents across test generation, coverage analysis, security scanning, and chaos engineering. It works best with Claude Code and integrates with 11 coding agent platforms. Crucially, it includes human checkpoints at pre-deploy and security stages: exactly the kind of guardrails we need for clinical systems.
 
-The fleet is organised into domains that map onto real delivery concerns: core testing (TDD in both London and Chicago schools, XP practices, risk-based testing), specialised testing (accessibility, security, contract testing, chaos engineering), and domain skills (test generation, coverage analysis, defect intelligence). For a team working on NHS clinical systems where DCB0129 and DCB0160 clinical safety standards apply, the explainability and audit trail capabilities are particularly relevant. The fact that accessibility testing is built into the agent fleet as a first-class concern — not an afterthought — also matters for a Welsh public body committed to the Digital Service Standard.
+The fleet is organised into domains that map onto real delivery concerns: core testing (TDD in both London and Chicago schools, XP practices, risk-based testing), specialised testing (accessibility, security, contract testing, chaos engineering), and domain skills (test generation, coverage analysis, defect intelligence). For a team working on NHS clinical systems where DCB0129 and DCB0160 clinical safety standards apply, the explainability and audit trail capabilities are particularly relevant. The fact that accessibility testing is built into the agent fleet as a first-class concern, not an afterthought, also matters for a Welsh public body committed to the Digital Service Standard.
 
 ### Agentic QE Resources
 
@@ -173,7 +173,7 @@ Charity Majors published a piece in March 2026 that crystallises something our i
 
 **The core argument:** When the summit asked "where does the rigor go?" as AI takes over code generation, they identified five destinations: specification review, test suites, type systems, risk mapping, and continuous comprehension. All good. But production didn't make the list. If control is supposed to move "closer to reality," then production is as close to reality as you can get. Production is reality.
 
-**The reframe:** Observability isn't a tool for finding bugs. It's a tool for understanding. Formal methods and test suites are flight simulators. Production is flying the actual plane. Observability is how you fly it.
+**The reframe:** Observability is a tool for understanding, not just for finding bugs. Formal methods and test suites are flight simulators. Production is flying the actual plane. Observability is how you fly it.
 
 As we move to Cloud, and introduce AI-assisted development patterns that will increase our rate of change, these things demand that we think differently about how we understand our systems in production.
 
@@ -181,7 +181,7 @@ Right now, Azure Application Insights gives us basic telemetry. That's not going
 
 **The shift-everywhere question:** We talk about shift-left (catching problems earlier in development) and shift-right (testing in production). Majors' argument is that this framing still treats production as secondary. What we need is to shift everywhere: rich, contextual telemetry that becomes a continuous feedback loop from the moment code is written through to its behaviour under real-world conditions.
 
-**What "shift everywhere" looks like for us:** Instrument as you go, not after the fact. Ship and validate your change in production. See what users actually do with it. Ship another change based on what you learn. Connect developer intent with outcomes in production through short, fast feedback loops. This is not new thinking — it predates AI, it predates DevOps. But AI makes it non-optional, because when the rate of change increases tenfold, all the duct tape comes off.
+**What "shift everywhere" looks like for us:** Instrument as you go, not after the fact. Ship and validate your change in production. See what users actually do with it. Ship another change based on what you learn. Connect developer intent with outcomes in production through short, fast feedback loops. This is not new thinking; it predates both AI and DevOps. But AI makes it non-optional, because when the rate of change increases tenfold, all the duct tape comes off.
 
 ### AI Breaks the "Good Enough" Economy
 
@@ -200,13 +200,13 @@ The pharma industry learned this the hard way. They used to treat evaluation as 
 The article that frames this entire section. Essential reading for everyone in the group. Responds to the Thoughtworks AI-native summit and argues that production must be at the centre of where rigor relocates to.
 
 **Relocating Rigor** *(Chad Fowler)*
-The essay that prompted the summit's central question. Argues that when code generation gets easier, judgment must get stricter. Constraint removal is not loss of rigor; it's rigor relocation.
+The essay that prompted the summit's central question. Argues that when code generation gets easier, judgment must get stricter. Constraint removal relocates rigour rather than removing it.
 
 **The Software Development Lifecycle is Dead** *(Boris Tane)*
 A provocative companion piece. Argues that when agents ship code faster than humans can review it, the observability layer becomes the primary safety mechanism and the connective tissue of the whole system.
 
 **The Eval Crisis: Why Testing AI Like Software Is Failing Us** *(Yasmeen Ahmad)*
-Argues we're applying a testing paradigm to what is essentially an epidemiological problem. When controlled testing can't capture what matters, you instrument the deployed system and measure outcomes, not just outputs.
+Argues we're applying a testing approach to what is essentially an epidemiological problem. When controlled testing can't capture what matters, you instrument the deployed system and measure outcomes, not just outputs.
 
 **Finding Comfort in the Uncertainty** *(Annie Vella)*
 Reflections from the Thoughtworks summit. The key takeaway: nobody has this figured out. Honest, grounded, and a good counterweight to the hype.
@@ -304,7 +304,7 @@ Everything we're doing sits on a foundation of established thinking about delive
 
 ### Delivery & Quality
 
-**[Bryan Finster — Quality Principles](https://bdfinst.github.io)**
+**[Bryan Finster: Quality Principles](https://bdfinst.github.io)**
 Quality is user-defined. Deliver small and frequently. "You build it, you run it." QA/SDET enables better developer testing rather than gatekeeping. These principles already shape how we work; AI just gives us better tools to live them.
 
 **[DORA Research Programme](https://dora.dev)**
