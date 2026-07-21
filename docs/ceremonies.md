@@ -30,7 +30,7 @@ The Delivery Manager facilitates and notes blockers, but the conversation belong
 
 **Timing:** Last day of the sprint, 45–60 minutes.
 
-The team demonstrates working software built during the sprint to stakeholders and each other. Demonstrations are live, in a staging environment, against real software. This is not a slide presentation. Stakeholder feedback is captured and used to update the backlog.
+The team demonstrates working software built during the sprint to stakeholders and each other. Demonstrations are live, in a staging environment, against real software. This is not a slide presentation. Stakeholder feedback is captured and used to update the backlog, and review progress towards the Product Goal.
 
 !!! info "DHCW show-and-tells"
     DHCW teams are encouraged to run open show-and-tells to anyone in NHS Wales or wider who might be interested, in addition to internal Sprint Reviews. These create transparency across the organisation and share learning. Teams working on Vaccinations and Choose Pharmacy have established this practice. If you're not sure how to set one up, speak to your Delivery Manager.
@@ -59,7 +59,7 @@ A sprint is a time-boxed effort toward a sprint goal. Once the sprint backlog is
 
 ### Sprint goals
 
-Every sprint should have a sprint goal: a short statement that explains why this increment of work matters. Make it clear, understandable, and **focused on value** to be delivered. When technical problems arise mid-sprint, the sprint goal is the guide for trade-off decisions. It gives the team shared purpose beyond a list of tickets.
+Every sprint should have a sprint goal: a short statement that explains why this increment of work matters. Make it clear, understandable, and **focused on value** to be delivered. When technical problems arise mid-sprint, the sprint goal is the guide for trade-off decisions. It gives the team shared purpose beyond a list of tickets. Every sprint goal should point at the current Product Goal.
 
 ### Sustainable delivery
 
