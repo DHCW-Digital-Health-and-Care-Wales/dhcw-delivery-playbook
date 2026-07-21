@@ -45,6 +45,14 @@ Teams are expected to be self-organising. The people closest to the work make th
 !!! info "A note on team size and composition"
     DHCW product teams typically include 4 software engineers and 2 test engineers per team, supported by a Product Owner and Delivery Manager as the stable core. Attached capabilities may be shared across teams or brought in for specific pieces of work. Where roles are shared, the team must agree clearly on how time is split and who owns each responsibility.
 
+## How the Delivery Manager serves beyond the team
+
+Most of a Delivery Manager's work is with their own team. Some of the most valuable work happens at the edges, where the team meets the rest of the organisation.
+
+A Delivery Manager supports the Product Owner as well as the team. That can mean coaching a newer Product Owner on how to shape a Product Goal, keep a backlog healthy, or plan in a way that copes with uncertainty. When stakeholders need to be brought together, the Delivery Manager helps make that happen and keeps it useful.
+
+A Delivery Manager also works outward. They help colleagues across DHCW understand how the team works and why. They smooth the path for teams that are new to working this way. And they clear the organisational blockers that a team cannot clear on its own. Removing the barriers between a team and the people it serves is a core part of the job.
+
 ## Attached capabilities
 
 Attached capabilities join the team for a period, contribute as full members while they are allocated, and move on when the need changes. Their involvement is normally heaviest during discovery and alpha and lighter in beta and live, but the pattern varies by service. Architecture roles are listed here alongside the UCD roles because they work the same way: they join the team, take part in its ceremonies, and share its goals for as long as they are allocated to it.
