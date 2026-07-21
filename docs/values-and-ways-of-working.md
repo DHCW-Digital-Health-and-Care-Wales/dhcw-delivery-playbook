@@ -64,6 +64,14 @@ Scrum gives these values a concrete home through five values that a healthy team
 
 These values are not separate from the compassionate leadership behaviours above. Respect, openness, and courage are how compassion and safety look once a team is delivering together under a shared cadence.
 
+## How we know we are on track
+
+We plan in short cycles because we cannot know everything up front. Complex work teaches you as you go. So we make our work visible, we look at it closely and often, and we change course based on what we see. That loop, show the work, inspect it, adapt, is the engine underneath every ceremony and every metric in this playbook.
+
+It only works if three things hold. The work has to be visible, or there is nothing useful to inspect. We have to actually look, in standups, reviews, retrospectives, and the numbers we watch. And we have to be willing to change what we are doing when the evidence points that way. Take any one of those away and the cycle stops turning.
+
+This is why we favour small steps, fast feedback, and decisions made close to the work. Each short cycle is a chance to learn something and put it to use before it costs us.
+
 ## Self-organisation
 
 All of this comes together in self-organisation. Because our teams are led with compassion, feel safe, and share the agile and Scrum values, we can trust them to decide how best to do their work. A self-organising team is given a clear goal and the support to reach it, and then it works out for itself how to get there.
