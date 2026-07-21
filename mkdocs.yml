@@ -72,6 +72,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting started:
+      - Our values and ways of working: values-and-ways-of-working.md
       - The service lifecycle: service-lifecycle.md
       - Team roles: team-roles.md
       - Before Sprint 1: before-sprint-1.md
