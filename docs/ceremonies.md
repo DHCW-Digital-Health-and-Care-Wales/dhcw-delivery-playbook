@@ -14,6 +14,10 @@ The team agrees a sprint goal and commits to a sprint backlog. The Product Owner
 
 The sprint backlog, once agreed, is owned by the team. No work is added or removed without the team agreeing a replan.
 
+Once the team knows why the sprint matters and which stories it is taking on, it works out how. For each story, Engineers and Test Engineers talk through the approach and break the work into sub-tasks in ADO small enough to finish in a day or so. This plan is made by the people doing the work. Nobody hands it to them.
+
+The plan does not need to be perfect or complete at planning. It is a starting picture that the team updates every day as it learns more. Breaking the work down this early surfaces hidden complexity while there is still time to do something about it, and it gives everyone a shared view of what done looks like for the sprint.
+
 ## Daily Standup
 
 **Timing:** Every morning, 15 minutes maximum.
