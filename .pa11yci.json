@@ -9,6 +9,7 @@
   },
   "urls": [
     "http://localhost:8080/",
+    "http://localhost:8080/values-and-ways-of-working/",
     "http://localhost:8080/service-lifecycle/",
     "http://localhost:8080/team-roles/",
     "http://localhost:8080/before-sprint-1/",
