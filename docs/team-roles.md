@@ -8,26 +8,6 @@ The **core** is the part of the team that stays constant across the whole servic
 
 The cultural message matters more than the diagram. If you are allocated to a team for a sprint, you are on that team for that sprint. You attend its ceremonies, you share its goals, and you take shared responsibility for what it ships. Attached does not mean part-time in commitment. It means part-time in duration.
 
-``` mermaid
-graph TD
-    subgraph Core [Core: present at every phase]
-        PO[Product Owner]
-        DM[Delivery Manager]
-        ENG[Engineering capability]
-        TEST[Test capability]
-    end
-    subgraph Attached [Attached capabilities: join for a period]
-        UCD[UCD roles]
-        BA[Business Analyst]
-        ARCH[Architecture roles]
-    end
-    UCD --> Core
-    BA --> Core
-    ARCH --> Core
-```
-
-The diagram shows the point of the model: architecture sits inside the ring of attached capabilities alongside UCD and business analysis, joining the team rather than reviewing it from outside.
-
 ## The core team
 
 A product team has no traditional management hierarchy. The Product Owner and Delivery Manager have a joint, collaborative relationship at the heart of the team, but they are not directing it from above. The Product Owner is focused on the problem space: what the team is building, for whom, and why. The Delivery Manager is focused on the team itself: creating the conditions for good work, removing blockers, handling the practical realities of line management, and making sure the team has what it needs to sustain a healthy pace. Neither role tells the team what to do. Both roles serve it.
@@ -55,7 +35,7 @@ A Delivery Manager also works outward. They help colleagues across DHCW understa
 
 ## Attached capabilities
 
-Attached capabilities join the team for a period, contribute as full members while they are allocated, and move on when the need changes. Their involvement is normally heaviest during discovery and alpha and lighter in beta and live, but the pattern varies by service. Architecture roles are listed here alongside the UCD roles because they work the same way: they join the team, take part in its ceremonies, and share its goals for as long as they are allocated to it.
+Attached capabilities join the team for a period, contribute as full members while they are allocated, and move on when the need changes. Their involvement is normally heaviest during discovery and alpha and lighter in beta and live, but the pattern varies by service. Architecture roles are listed here alongside the UCD roles because they work the same way: they join the team, take part in its ceremonies, and share its goals for as long as they are allocated to it. This is a good, but non exhaustive over view of the possible people you could have working with you.
 
 | GDaD role | DHCW band | Purpose |
 | --- | --- | --- |
