@@ -69,6 +69,16 @@ Cross-cutting controls are legal, safety, or organisational requirements that ap
 - [ ] The change meets applicable technical and data standards
 - [ ] Clinical safety obligations have been met where the change is in scope (DCB0129 / DCB0160)
 
+## Product Goal
+
+A backlog tells you what you might build. A Product Goal tells you where you are heading, and why. It is the one meaningful outcome the team is working towards right now, written plainly enough that everyone can repeat it.
+
+A good Product Goal describes a future state of the product that matters to users. "Every eligible child in Wales has an accurate, near real-time immunisation record" is a Product Goal. It is bigger than a single sprint and smaller than the whole roadmap. It sits at the top of the backlog, and the rest of the backlog exists to reach it. Every sprint goal should point at it.
+
+Work towards one Product Goal at a time. Reach it, or decide together to let it go, before you take on the next. Holding a single goal keeps the team pulling in one direction, and it makes it obvious when a piece of work has drifted away from what matters.
+
+The Product Owner owns the Product Goal, shapes it with the team, and keeps it visible. Revisit it when the world changes. If it no longer describes where you are heading, change it in the open and tell people why.
+
 ## Product roadmap: Now, Next, Later
 
 DHCW teams use a three-horizon roadmap to balance near-term delivery with longer-term direction. This framework keeps planning light while giving stakeholders a reasonable view of the direction of the product.
