@@ -113,6 +113,24 @@
   background-color: var(--dhcw-navy); /* navy masthead — the design-system header colour; the white logo sits here */
   color: var(--dhcw-text-inverse); /* force white header text/icons on navy — no dark-on-dark */
   border-bottom: 4px solid var(--dhcw-navy);
+  /* Material applies backdrop-filter here; axe-core cannot compute color contrast
+     through backdrop-filter and returns INCOMPLETE, which pa11y treats as failure. */
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+/* Force white text on all header child elements so axe can compute contrast
+   correctly against the solid navy background (Material inherits some of these
+   as currentcolor which resolves to dark when the cascade drops through). */
+.md-header .md-ellipsis,
+.md-header .md-source__repository {
+  color: var(--dhcw-text-inverse);
+}
+
+/* Search button sits on the navy header — keep icon and label white. */
+.md-header .md-search__button {
+  color: var(--dhcw-text-inverse);
+  background-color: transparent;
 }
 .md-footer {
   background-color: var(--dhcw-navy);
@@ -339,7 +357,9 @@
 /* Footer — keep the previous/next pagination and copyright legible on navy. */
 .md-footer__title,
 .md-footer__direction,
-.md-footer-copyright {
+.md-footer-copyright,
+.md-footer .md-copyright,
+.md-footer .md-copyright__highlight {
   color: var(--dhcw-text-inverse);
 }
 .md-footer__link:hover {

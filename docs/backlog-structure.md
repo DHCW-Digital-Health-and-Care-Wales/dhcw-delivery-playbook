@@ -14,6 +14,20 @@ Everything the team does is tracked in Azure DevOps. The ticket hierarchy below 
 | 3 | **Task** | Work that does not deliver a direct user-facing feature: training, continuous improvement, documentation, or technical maintenance. | Within sprint | Product team |
 | 4 | **Sub-task (optional)** | Breakdown of steps within a user story. Use sparingly: if a story needs more than three sub-tasks, it is probably too large. | Within sprint | Engineers |
 
+## Tagging user stories and epics
+
+Every Epic and User Story carries one organisation-level tag. Tags give DHCW a consistent view across teams of where effort is going, so leadership can see the balance between new value, maintenance, and learning across the whole portfolio. Tags are applied in Azure DevOps and sit alongside the work item type, not in place of it.
+
+| Tag | When to use it |
+| --- | --- |
+| **New Feature** | Work that delivers new user-facing value or a new capability. |
+| **Tech Debt** | Work that improves the health of the codebase, platform, or tooling without adding new user-facing value. See the Technical debt page for guidance on identifying and prioritising it. |
+| **Bug** | Work to correct incorrect or broken behaviour in the system. |
+| **Research and Development** | Work to reduce uncertainty or explore a new idea, such as a spike or a proof of concept. |
+
+!!! info "Bug is both a work item type and a tag"
+    Bug appears in the ticket hierarchy as a work item type and here as an organisation-level tag. Every ticket raised as a Bug work item type is tagged Bug. The tag also lets us report on corrective work that is captured inside a User Story rather than as a standalone Bug ticket.
+
 ## Definition of Ready
 
 A ticket is ready for sprint planning when it meets all of the following criteria. If it fails any of these, it stays in the backlog for further refinement. The team has the right to reject tickets at refinement.
@@ -24,9 +38,13 @@ The team should always look to have a runway of two to three sprints worth of wo
 - [ ] Acceptance criteria are defined and testable (Given / When / Then format recommended)
 - [ ] The ticket is small enough to complete within a single sprint
 - [ ] Dependencies are identified and noted on the ticket
+- [ ] The technical platform the story is built on is ready before the story enters the sprint
 - [ ] Designs or wireframes are attached where the ticket has a user-facing interface
 - [ ] Welsh Language requirements for any user-facing content have been considered
 - [ ] The team has reviewed the ticket at refinement and estimates it collectively
+
+!!! info "What platform ready means"
+    A story is only ready when the technical platform it depends on already exists. The environments, services, pipelines, and infrastructure the story needs must be in place and usable before the story enters the sprint. If the platform is still being built, that platform work is a dependency in its own right and must be completed first. Pulling a story into a sprint before its platform is ready leads to blocked work and unreliable delivery forecasts.
 
 ## Definition of Done
 
@@ -38,10 +56,18 @@ A ticket is done when it meets all of the following criteria. These standards ap
 - [ ] The change is deployable to production at any time (or protected behind a feature flag)
 - [ ] Acceptance criteria are met and have been validated against the running software
 - [ ] No known defects have been introduced
-- [ ] User-facing content meets Welsh Language Standards
-- [ ] User-facing interfaces meet WCAG 2.1 AA accessibility standards
 - [ ] Azure DevOps ticket is updated and closed
 - [ ] Release notes or change log updated
+
+### Cross-cutting controls
+
+Cross-cutting controls are legal, safety, or organisational requirements that apply to every ticket regardless of type. Unlike the criteria above, these cannot be waived by a team-level exception: they reflect obligations placed on DHCW as an organisation. Where a control does not apply to a given ticket, record why on the ticket rather than removing the check.
+
+- [ ] Cyber security requirements for the change have been met, including secure handling of any data the change touches
+- [ ] User-facing interfaces meet WCAG 2.2 AA accessibility standards
+- [ ] User-facing content meets Welsh Language Standards
+- [ ] The change meets applicable technical and data standards
+- [ ] Clinical safety obligations have been met where the change is in scope (DCB0129 / DCB0160)
 
 ## Product roadmap: Now, Next, Later
 

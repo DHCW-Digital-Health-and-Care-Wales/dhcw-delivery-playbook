@@ -4,10 +4,12 @@
     "timeout": 60000,
     "wait": 800,
     "chromeLaunchConfig": { "args": ["--no-sandbox", "--disable-dev-shm-usage"] },
-    "threshold": 0
+    "threshold": 0,
+    "viewport": { "width": 1440, "height": 900 }
   },
   "urls": [
     "http://localhost:8080/",
+    "http://localhost:8080/values-and-ways-of-working/",
     "http://localhost:8080/service-lifecycle/",
     "http://localhost:8080/team-roles/",
     "http://localhost:8080/before-sprint-1/",

@@ -1,6 +1,6 @@
 # DHCW Delivery Playbook
 
-The source for the DHCW Product and Service Delivery Playbook, published as a website.
+The source for the DHCW Product and Service Delivery Playbook, published as a website. This is not yet approved and is in draft for comment and collaboration.
 
 The content lives as Markdown in `docs/`. The site is built with [Zensical](https://zensical.org) — the actively maintained successor to Material for MkDocs from the same team — and published to GitHub Pages automatically on every push to `main`.
 
