@@ -22,6 +22,7 @@ It is a living document. We expect it to improve as more teams use it and contri
 
 The chapters follow the shape of delivery, from understanding a problem through to running a live service:
 
+- **[Our values and ways of working](values-and-ways-of-working.md)** connects DHCW's purpose, compassionate leadership, and agile values, and explains why the rest of the playbook looks the way it does.
 - **[The service lifecycle](service-lifecycle.md)** sets out the four phases every service moves through.
 - **[Team roles](team-roles.md)** describes who does what and how a self-organising team holds together.
 - **[Before Sprint 1](before-sprint-1.md)** covers Team Charters, tooling, and Sprint 0.
