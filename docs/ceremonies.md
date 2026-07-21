@@ -20,15 +20,13 @@ The plan does not need to be perfect or complete at planning. It is a starting p
 
 ## Daily Standup
 
-**Timing:** Every morning, 15 minutes maximum.
+**Timing:** Every working day, 15 minutes maximum.
 
-The standup is a team synchronisation, not a status report to management. The ADO sprint board is on screen (or in the room) and the team walk through it. Each team member answers three questions:
+The standup keeps the team moving towards the sprint goal. It is a chance for the team to look at its own progress and decide, together, what to do today. It is a team synchronisation, not a status report to management.
 
-- What did I complete yesterday?
-- What am I working on today?
-- Is anything blocking me?
+With the sprint goal and the ADO sprint board in view, the team looks at where the work stands against the goal and agrees a plan for the day. Where is work flowing? Where is it stuck? What is the most useful thing each person can pick up next to move the goal forward? The Delivery Manager facilitates and notes blockers, but the conversation belongs to the team. Blockers raised here should be resolved the same day where possible.
 
-The Delivery Manager facilitates and notes blockers, but the conversation belongs to the team. Blockers raised here should be resolved the same day where possible.
+The three questions many teams use (what I finished, what I am doing, what is in my way) are a good way in. Keep the focus on the sprint goal and the plan for the day, so the standup stays a working conversation rather than a round of reporting.
 
 ## Sprint Review
 
@@ -74,3 +72,9 @@ We aim for a pace that can be maintained indefinitely. The Delivery Manager moni
 The team's aim is to complete everything committed in the sprint backlog. Where that isn't possible, the team prioritises based on the sprint goal and ranks remaining work accordingly. Three stories fully done is better than five stories that are ninety per cent complete. Start finishing; stop starting.
 
 Where multiple team members can help move a story to done, they should do so. Getting work across the line takes precedence over picking up new stories at the end of a sprint.
+
+### Cancelling a sprint
+
+Now and then, the reason for a sprint disappears. A major priority shifts, a service incident changes everything, or the sprint goal simply stops making sense. When that happens, it is better to stop the sprint than to keep working towards a goal that no longer matters.
+
+Only the Product Owner can cancel a sprint, because only the Product Owner owns the value the sprint was meant to deliver. Cancelling is rare, and it is disruptive, so it is a deliberate decision made with the team. When a sprint is cancelled, the team reviews any completed work, returns unfinished items to the backlog, and starts a fresh sprint with new planning.
