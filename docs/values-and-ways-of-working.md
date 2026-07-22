@@ -8,7 +8,7 @@ The logic runs in one line. DHCW exists to improve health and care for the peopl
 
 Digital Health and Care Wales builds and runs the national digital services that clinicians, patients, and the public rely on every day. Our purpose is to improve health and care outcomes for the people of Wales, safely, equitably and sustainably. Shipping software is how we get there, never the point in itself.
 
-That purpose sets the bar for everything else. A practice that does not ultimately serve users and the wider system is a practice we should question, whatever tradition or convenience recommends it.
+That purpose sets the bar for everything else. A practice that does not ultimately serve users and the wider system is a practice we should question, whatever tradition or convenience recommends it. This is also what the Well-being of Future Generations (Wales) Act 2015 asks of every Welsh public body: meet the needs of the present without compromising the ability of future generations to meet theirs.
 
 ## Strategic principles
 
