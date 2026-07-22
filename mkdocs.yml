@@ -100,6 +100,3 @@ nav:
       - Working in the open: working-in-the-open.md
   - Running the service:
       - Running a reliable service: running-a-reliable-service.md
-  - Reference:
-      - Reference and further reading: reference.md
-      - Playbook resources: playbook-resources.md
