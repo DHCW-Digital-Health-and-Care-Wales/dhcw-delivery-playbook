@@ -23,7 +23,7 @@ These metrics help the team plan and reflect. They should be visible to the team
 - **Sprint burndown:** daily view of remaining work against the ideal line
 - **Cycle time:** the time from a ticket being started to it being done
 - **Cumulative flow diagram:** a view of work in each stage over time. Widening bands indicate bottlenecks
-- **Velocity:** the average story points completed per sprint over five sprints. Useful for planning; not a target or measure, as velocity is non-comparable between teams
+- **Velocity:** the average story points completed per sprint over five sprints. The team uses it for its own planning. Never compare it between teams or set it as a target
 
 ## Quality metrics
 
@@ -33,4 +33,4 @@ These metrics help the team plan and reflect. They should be visible to the team
 - Technical debt risk (tracked at the team level)
 
 !!! example "DHCW example – Welsh Immunisation System"
-    The Welsh Immunisation System reduced its regression testing runtime from six weeks (manual) to three hours (automated). UI test coverage went from zero to full. Release lead time fell from approximately 90 days to approximately 20 days. These are the outcomes that good engineering practice and healthy DORA metrics produce. They are what we are building toward across all DHCW products.
+    The Welsh Immunisation System reduced its regression testing runtime from six weeks (manual) to three hours (automated). UI test coverage went from zero to full. Release lead time fell from approximately 90 days to approximately 20 days. These are the outcomes that good engineering practice and healthy DORA metrics produce. They are what we are building towards across all DHCW products.

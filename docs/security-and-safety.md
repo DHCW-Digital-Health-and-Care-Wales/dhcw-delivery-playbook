@@ -6,7 +6,7 @@ The [Backlog structure](backlog-structure.md) chapter lists security, privacy, a
 
 ## Secure by design
 
-Security works best when it's part of how we build, from the first design decision onward. Bolting it on at the end leaves holes and slows everyone down.
+Security works best when it's part of how we build, from the first design decision onwards. Bolting it on at the end leaves holes and slows everyone down.
 
 Secure by design at DHCW means:
 
@@ -47,6 +47,10 @@ Many DHCW services are health IT systems that clinicians rely on to make decisio
 - **DCB0160** covers the organisation deploying and using it.
 
 Meeting them is real work that runs through the whole build. A named, trained **Clinical Safety Officer** leads it. The team keeps a clinical safety case and a hazard log: a living record of what could go wrong for a patient, how likely and how serious it is, and what we've done to reduce the risk. You build the hazard log as you design and change the service, and you keep it current in live. When a change could affect patient safety, you assess it before it ships.
+
+## Ethics throughout
+
+Point 11 of the Digital Service Standard for Wales asks teams to consider ethics alongside privacy and security. Privacy and security have named processes above; ethics needs the same habit. When a change is significant, ask who benefits, who could be left out or harmed, and how the change looks to the people with the least power in the service. Doteveryone's Consequence Scanning is a light way to run that conversation, and it fits inside refinement or planning.
 
 !!! warning "Safety and security carry on after go-live"
     None of this finishes at go-live. Threats change, services change, and the hazard picture changes with them. Keep the threat model, the DPIA, and the clinical safety case alive for as long as the service runs.

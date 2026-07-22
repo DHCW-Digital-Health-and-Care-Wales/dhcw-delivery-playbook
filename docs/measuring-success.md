@@ -23,7 +23,7 @@ A headline number can hide a problem. A service that works well for most people 
 
 We work in the open by default (see [Working in the open](working-in-the-open.md)), and that includes how our services perform. Publishing performance data, clearly and regularly, builds trust with the public and keeps us focused on real outcomes.
 
-Publishing openly does two things. It holds us to account, because performance is visible. And it helps others, because a health board or another team can see what good looks like and learn from it. Where it's safe to do so, make service performance public, and be as open about what isn't working as about what is.
+Publishing openly does two things. It holds us to account, because performance is visible. And it helps others, because a health board or another team can see what good looks like and learn from it. Where it's safe to do so, make service performance public, and be as open about what isn't working as about what is. Start with a performance section on the service's public page, or a page per service alongside this playbook, and link it from the accessibility statement.
 
 !!! info "Start simple"
     You don't need a perfect dashboard on day one. Pick the few measures that tell you whether the service is meeting its users' needs, measure them properly, and improve the picture over time. A small set of measures the team actually looks at beats a large set nobody reads.

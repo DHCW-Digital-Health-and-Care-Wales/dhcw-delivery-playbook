@@ -2,12 +2,12 @@
 
 ## Delivery plans
 
-A delivery plan tracks the full set of activities required to get a feature live: technical, operational, and cross-functional. It is a de-risking tool, not a project plan.
+A delivery plan is the checklist of everything beyond the code that has to be true before a feature is safely live: dependencies, training, rollback, monitoring, safety sign-off. It lives in Azure DevOps Delivery Plans, next to the work itself, so the team sees each feature's path across sprints without maintaining a separate document. It is a de-risking tool for a product team.
 
 ### Development
 
-- Track feature timelines end-to-end across sprints
-- Monitor active sprints against targeted delivery milestones
+- Keep the plan in Azure DevOps Delivery Plans so each feature's path across sprints is visible next to the work
+- Once a sprint, check it against the dates that actually matter: assessment dates, campaign starts, contract deadlines
 
 ### Dependencies
 
@@ -32,11 +32,11 @@ A delivery plan tracks the full set of activities required to get a feature live
 
 ## RAID management
 
-The RAID Log is a shared record of the variables that could pull delivery off track. It is owned by the Delivery Manager but maintained by the whole team. It should be live and up to date, not a document that gets written once and forgotten.
+The RAID Log is a shared record of the variables that could pull delivery off track. It is owned by the Delivery Manager but maintained by the whole team. Keep it live and up to date.
 
 | Type | Definition | What to do with it |
 | --- | --- | --- |
-| **Risk** | A potential future event that could impact delivery. | Assign an owner. Define a mitigation. Review at each retrospective. |
+| **Risk** | A potential future event that could knock delivery off course. | Assign an owner. Define a mitigation. Review at each retrospective. |
 | **Assumption** | Something we believe to be true that we haven't yet verified. | Validate it as early as possible. If it proves false, reassess. |
 | **Issue** | An active problem that is blocking or slowing delivery now. | Escalate immediately. The Delivery Manager is accountable for resolution. |
 | **Dependency** | A deliverable from another team or supplier that we need to complete our work. | Track it explicitly. Name the owner in the other team. Flag if it slips. |

@@ -1,6 +1,6 @@
 # DHCW Product and Service Delivery Playbook
 
-*How we build and maintain happy teams that deliver world-leading digital products and services for the people of Wales.*
+*How DHCW builds healthy teams, and how those teams build and run digital services for the people of Wales.*
 
 !!! note "Draft for Discussion"
     **Version 0.5** &middot; 22 July 2026 &middot; Owner: Digital Health and Care Wales
@@ -13,17 +13,17 @@ DHCW delivers digital services that clinicians, patients, and the people of Wale
 
 This playbook describes how our product and service delivery teams work. It covers the roles we use, how we organise our backlogs, the cadence of our ceremonies, and the engineering standards that make sustained delivery possible. It is grounded in real experience building and running services at DHCW, and it aligns to the Digital Service Standard for Wales, DDaT job families, and our own Target Operating Model.
 
-It is a living document. We expect it to improve as more teams use it and contribute back. If something in here doesn't reflect how good delivery actually works in your context, raise it. The goal is a shared foundation, not a set of rules imposed from above.
+It is a living document. We expect it to improve as more teams use it and contribute back. If something in here doesn't reflect how good delivery actually works in your context, raise it. The goal is a shared foundation that every team helps to improve.
 
-!!! info "Our commitment"
-    Every team working on a DHCW product or service is expected to work in the spirit of this playbook. It is a set of agreed practices that help us deliver with consistency, transparency, and pride in our craft.
+!!! info "How firm is this playbook?"
+    Three levels run through everything here. **Controls** are legal and safety obligations: clinical safety, accessibility, Welsh language, data protection. They always apply and are marked as controls where they appear. **Defaults** are where every DHCW team starts: the ticket hierarchy, the ceremony cadence, the Definition of Done. Adapt a default when you have a reason, and tell us, so the playbook improves. **Suggestions**, like facilitation formats and tool choices, are yours to take or leave.
 
 ## How to use this playbook
 
 The chapters follow the shape of delivery, from understanding a problem through to running a live service:
 
 - **[Our values and ways of working](values-and-ways-of-working.md)** connects DHCW's purpose, compassionate leadership, and agile values, and explains why the rest of the playbook looks the way it does.
-- **[The service lifecycle](service-lifecycle.md)** sets out the four phases every service moves through.
+- **[The service lifecycle](service-lifecycle.md)** sets out the phases every service moves through.
 - **[Understanding users and their needs](understanding-users.md)**, **[designing the whole service](whole-service-design.md)**, and **[accessibility and inclusion](accessibility-and-inclusion.md)** cover how we learn what people need and design a service that works for everyone in Wales.
 - **[Team roles](team-roles.md)** describes who does what and how a self-organising team holds together.
 - **[Before Sprint 1](before-sprint-1.md)** covers Team Charters, tooling, and Sprint 0.

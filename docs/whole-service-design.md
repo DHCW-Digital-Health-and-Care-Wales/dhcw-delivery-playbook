@@ -35,7 +35,7 @@ Joining up means:
 - What someone does in one channel is known in the next, so they don't have to start again or repeat themselves.
 - People who can't or won't use the digital route can still complete the journey another way, and that route is designed with the same care.
 
-Point 3 of the Service Standard and our own duty to serve everyone in Wales both point the same way. A digital service that only works for digital-confident people isn't finished.
+Point 4 of the Digital Service Standard for Wales (provide a joined up experience) and our own duty to serve everyone in Wales both point the same way. A digital service that only works for digital-confident people isn't finished.
 
 ## Keep the whole thing simple
 

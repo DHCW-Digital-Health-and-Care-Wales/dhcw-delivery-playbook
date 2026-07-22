@@ -22,18 +22,18 @@ Every debt item is captured as a ticket in Azure DevOps so that it is visible, e
 - **Make it explicit:** raise a ticket as soon as debt is identified, whether it is created intentionally or discovered during delivery
 - **Describe the impact:** capture what the debt costs the team now and the risk of leaving it unaddressed, so it can be prioritised on evidence rather than instinct
 - **Prioritise openly:** the Product Owner and the team weigh debt against feature work at refinement and sprint planning
-- **Pay it down steadily:** tackle debt in small, regular increments rather than waiting for a large remediation project that rarely arrives
+- **Pay it down steadily:** pay debt down in small, regular steps rather than waiting for a large remediation project that rarely arrives
 
 !!! info "Debt is a whole-team responsibility"
-    Deciding how much debt to carry, and when to pay it down, is a conversation between the Product Owner and the delivery team. Engineers surface the technical cost and risk; the Product Owner weighs that against user and business priorities. The balance is agreed together, not imposed.
+    Deciding how much debt to carry, and when to pay it down, is a conversation between the Product Owner and the delivery team. Engineers surface the technical cost and risk; the Product Owner weighs that against user and business priorities. The balance is agreed together.
 
 ## How much capacity to spend
 
-Teams are empowered to set their own balance between new features and paying down debt, based on the health of their system and the priorities in front of them. As a guide, we suggest reserving around 15 to 25% of sprint capacity for technical debt and engineering health.
+Teams set their own balance between new features and paying down debt, based on the health of their system and the priorities in front of them. As a guide, we suggest reserving around 15 to 25% of sprint capacity for technical debt and engineering health.
 
-This is an advisory budget, not a fixed rule. A mature, stable service may need less. A system carrying significant risk, or one being prepared for a major change, may need more for a period. The point of the guide is to make paying down debt a deliberate, recurring part of every sprint rather than something that is only addressed once it becomes a crisis.
+This is an advisory budget. A mature, stable service may need less. A system carrying significant risk, or one being prepared for a major change, may need more for a period. The point of the guide is to make paying down debt a deliberate, recurring part of every sprint rather than something that is only addressed once it becomes a crisis.
 
-!!! note "Treat the budget as a floor to protect, not a ceiling to hit"
+!!! note "Treat the budget as a floor to protect"
     The 15 to 25% guide exists to protect time for engineering health when feature pressure is high. If your team consistently needs more, that is a useful signal to discuss with your Product Owner and stakeholders.
 
 ## Making debt visible across the organisation

@@ -7,7 +7,7 @@ The backlog is a living, prioritised list of work. It is owned by the Product Ow
 - Keep the backlog stack ranked. If everything is the priority, nothing is. Linear ranking forces the honest decision about what matters most
 - Be intentional about what work makes the backlog. A massive backlog cannot be reviewed effectively and creates the illusion of productivity without delivery
 - Maintain a two-to-three sprint runway of refined work. Never enter sprint planning with a bare backlog
-- The Product Owner continuously reviews and re-ranks the backlog between sprints. This is not a periodic activity; it is a standing responsibility
+- The Product Owner continuously reviews and re-ranks the backlog between sprints. It is a standing responsibility
 
 ## Upstream workflow: from idea to ready
 

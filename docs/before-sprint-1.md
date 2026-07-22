@@ -6,14 +6,14 @@ Before writing code, a product team must align on how they work together. High-p
 
 ### Identity and structure
 
-As a team, you are empowered to create your own identity within the framework that DHCW provides. Agree a team name (this can be something fun). List who is accountable for what. Map skills across the team so everyone knows who to go to for help. Where a role is missing or shared, the team must agree explicitly who carries each responsibility. Gaps in accountability create delivery risk.
+As a team, create your own identity within the framework that DHCW provides. Agree a team name (this can be something fun). List who is accountable for what. Map skills across the team so everyone knows who to go to for help. Where a role is missing or shared, the team must agree explicitly who carries each responsibility. Gaps in accountability create delivery risk.
 
 ### Team vision
 
 A short statement that explains why the team exists and what value it provides. This should link back to DHCW's vision to "Make Digital a Force for Good in Health and Care". Everyone in the team should be able to say it. A good vision names the user and the outcome:
 
 !!! example "Example – Vaccinations"
-    We help Wales to deliver efficient, data-driven vaccination services by providing a near real-time, user-centred immunisation service that streamlines data management, enhances citizen access, and supports informed decision-making.
+    Every vaccination given in Wales is recorded once, appears in the record within minutes, and can be seen by the clinicians and families who need it.
 
 ### Core values
 
@@ -26,7 +26,7 @@ The behavioural commitments the team makes to each other. There is an overlap be
 
 ### Working agreements
 
-Specific, measurable commitments about how the team communicates and coordinates day to day. These are set by the team, not imposed. Examples:
+Specific, measurable commitments about how the team communicates and coordinates day to day. The team sets these. Examples:
 
 - Core collaboration hours: the hours between 9am and 5pm when everyone is available for ceremonies, pairing, and questions
 - Avoid direct messages: share thinking, questions, and uncertainty in the open and make everyone feel included. Use the team channel for discussions, as direct messages can become hidden decision threads
@@ -53,13 +53,13 @@ DHCW teams use a consistent tooling stack to support collaboration and delivery.
 
 ## Sprint 0: launching a new team
 
-Sprint 0 is the setup phase before delivery begins. It runs for two to three weeks and establishes the conditions for sustained, high-quality delivery. It is when the team forms as a team, not a planning exercise in isolation.
+Sprint 0 is the setup phase before delivery begins. It runs for two to three weeks and establishes the conditions for sustained, high-quality delivery. It is when the team forms as a team.
 
 ### Week 1 – Infrastructure and alignment
 
 - Delivery Manager, Product Owner, and Lead Software Engineer configure Azure DevOps, link to GitHub, provision environments, and set up Miro
 - Grant team access to all tools and confirm Welsh Language and accessibility commitments are understood
-- Hold an in-person kick-off workshop. Facilitate the Team Charter. Agree a draft Definition of Ready and Definition of Done
+- Hold an in-person kick-off workshop. Run the Team Charter workshop. Agree a draft Definition of Ready and Definition of Done
 - Confirm alignment to the Digital Service Standard for Wales and identify which phase the product is in
 
 ### Week 2 – Planning and backlog setup
