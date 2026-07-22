@@ -1,6 +1,6 @@
 # Ceremonies
 
-Sprint ceremonies give the team a structured rhythm for planning, coordination, and reflection. They are not meetings for management. They are how a self-organising team governs its own work.
+Sprint ceremonies give the team a structured rhythm for planning, coordination, and reflection. They are how a self-organising team governs its own work.
 
 DHCW teams run on a two-week increment cadence. All ceremonies below are calibrated to this rhythm. It is worth planning these meetings for the same day as a dedicated office day to increase opportunities for collaboration and contact, and not to allocate sprint effort to those days.
 
@@ -22,7 +22,7 @@ The plan does not need to be perfect or complete at planning. It is a starting p
 
 **Timing:** Every working day, 15 minutes maximum.
 
-The standup keeps the team moving towards the sprint goal. It is a chance for the team to look at its own progress and decide, together, what to do today. It is a team synchronisation, not a status report to management.
+The standup keeps the team moving towards the sprint goal. It is a chance for the team to look at its own progress and decide, together, what to do today. It is the team's own working conversation.
 
 With the sprint goal and the ADO sprint board in view, the team looks at where the work stands against the goal and agrees a plan for the day. Where is work flowing? Where is it stuck? What is the most useful thing each person can pick up next to move the goal forward? The Delivery Manager facilitates and notes blockers, but the conversation belongs to the team. Blockers raised here should be resolved the same day where possible.
 
@@ -32,7 +32,7 @@ The three questions many teams use (what I finished, what I am doing, what is in
 
 **Timing:** Last day of the sprint, 45–60 minutes.
 
-The team demonstrates working software built during the sprint to stakeholders and each other. Demonstrations are live, in a staging environment, against real software. This is not a slide presentation. Stakeholder feedback is captured and used to update the backlog, and review progress towards the Product Goal.
+The team demonstrates working software built during the sprint to stakeholders and each other. Demonstrations are live, in a staging environment, against real software. Stakeholder feedback is captured in the backlog, and the team reviews progress towards the Product Goal with its stakeholders.
 
 !!! info "DHCW show-and-tells"
     DHCW teams are encouraged to run open show-and-tells to anyone in NHS Wales or wider who might be interested, in addition to internal Sprint Reviews. These create transparency across the organisation and share learning. Teams working on Vaccinations and Choose Pharmacy have established this practice. If you're not sure how to set one up, speak to your Delivery Manager.
@@ -41,9 +41,9 @@ The team demonstrates working software built during the sprint to stakeholders a
 
 **Timing:** Last day of the sprint, 1 hour.
 
-The team inspects its own process, relationships, and tools to drive continuous improvement. The retrospective should be a psychologically safe space where people can be honest about what isn't working. Miro works well for remote teams. Actions from the retrospective are prioritised and planned into the next sprint: they are not a separate list that gets forgotten.
+The team inspects its own process, relationships, and tools to keep improving. The retrospective should be a psychologically safe space where people can be honest about what isn't working. Miro works well for remote teams. Actions from the retrospective are prioritised and planned into the next sprint.
 
-Retrospectives that consistently produce the same actions are a signal that something systemic needs to change, not just an individual behaviour.
+Retrospectives that consistently produce the same actions are a signal that something systemic needs to change.
 
 ## Backlog Refinement
 
@@ -57,7 +57,7 @@ Refinement is collaborative. A ticket that only the BA and PO understand at the 
 
 ### Stable sprints
 
-A sprint is a time-boxed effort toward a sprint goal. Once the sprint backlog is agreed, scope changes require the team to agree a replan. Mid-sprint additions break flow, invalidate capacity planning, and increase the risk that the Definition of Ready is skipped. When a high-priority change cannot wait, the Product Owner initiates a short replanning session with the team.
+A sprint is a time-boxed effort towards a sprint goal. Once the sprint backlog is agreed, scope changes require the team to agree a replan. Mid-sprint additions break flow, invalidate capacity planning, and increase the risk that the Definition of Ready is skipped. When a high-priority change cannot wait, the Product Owner initiates a short replanning session with the team.
 
 ### Sprint goals
 
@@ -65,7 +65,7 @@ Every sprint should have a sprint goal: a short statement that explains why this
 
 ### Sustainable delivery
 
-We aim for a pace that can be maintained indefinitely. The Delivery Manager monitors team capacity and ensures the team plans to what it can actually deliver, not what it feels pressured to commit to. Burnout, technical debt, and high defect rates are all signals that the team is moving at an unsustainable pace.
+We aim for a pace that can be maintained indefinitely. The Delivery Manager monitors team capacity and ensures the team plans to what it can actually finish. Burnout, technical debt, and high defect rates are all signals that the team is moving at an unsustainable pace.
 
 ### Finishing work
 

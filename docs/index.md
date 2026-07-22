@@ -1,6 +1,6 @@
 # DHCW Product and Service Delivery Playbook
 
-*How we build and maintain happy teams that deliver world-leading digital products and services for the people of Wales.*
+*How DHCW builds healthy teams, and how those teams build and run digital services for the people of Wales.*
 
 !!! note "Draft for Discussion"
     **Version 0.5** &middot; 22 July 2026 &middot; Owner: Digital Health and Care Wales
@@ -13,10 +13,10 @@ DHCW delivers digital services that clinicians, patients, and the people of Wale
 
 This playbook describes how our product and service delivery teams work. It covers the roles we use, how we organise our backlogs, the cadence of our ceremonies, and the engineering standards that make sustained delivery possible. It is grounded in real experience building and running services at DHCW, and it aligns to the Digital Service Standard for Wales, DDaT job families, and our own Target Operating Model.
 
-It is a living document. We expect it to improve as more teams use it and contribute back. If something in here doesn't reflect how good delivery actually works in your context, raise it. The goal is a shared foundation, not a set of rules imposed from above.
+It is a living document. We expect it to improve as more teams use it and contribute back. If something in here doesn't reflect how good delivery actually works in your context, raise it. The goal is a shared foundation that every team helps to improve.
 
-!!! info "Our commitment"
-    Every team working on a DHCW product or service is expected to work in the spirit of this playbook. It is a set of agreed practices that help us deliver with consistency, transparency, and pride in our craft.
+!!! info "How firm is this playbook?"
+    Three levels run through everything here. **Controls** are legal and safety obligations: clinical safety, accessibility, Welsh language, data protection. They always apply and are marked as controls where they appear. **Defaults** are where every DHCW team starts: the ticket hierarchy, the ceremony cadence, the Definition of Done. Adapt a default when you have a reason, and tell us, so the playbook improves. **Suggestions**, like facilitation formats and tool choices, are yours to take or leave.
 
 ## How to use this playbook
 

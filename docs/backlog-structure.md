@@ -16,7 +16,7 @@ Everything the team does is tracked in Azure DevOps. The ticket hierarchy below 
 
 ## Tagging user stories and epics
 
-Every Epic and User Story carries one organisation-level tag. Tags give DHCW a consistent view across teams of where effort is going, so leadership can see the balance between new value, maintenance, and learning across the whole portfolio. Tags are applied in Azure DevOps and sit alongside the work item type, not in place of it.
+Every Epic and User Story carries one organisation-level tag. Tags give DHCW a consistent view across teams of where effort is going, so leadership can see the balance between new value, maintenance, and learning across the whole portfolio. Tags are applied in Azure DevOps and add a portfolio view on top of the work item type.
 
 | Tag | When to use it |
 | --- | --- |
@@ -93,7 +93,7 @@ DHCW teams use a three-horizon roadmap to balance near-term delivery with longer
 
 ### T-shirt sizing
 
-For roadmap planning and features in the Next and Later horizons, teams use t-shirt sizing to give a rough sense of scale. T-shirt sizing is a conversation starter, not a commitment.
+For roadmap planning and features in the Next and Later horizons, teams use t-shirt sizing to give a rough sense of scale. T-shirt sizing is a conversation starter.
 
 | Size | Approximate scale |
 | --- | --- |
@@ -105,7 +105,7 @@ For roadmap planning and features in the Next and Later horizons, teams use t-sh
 
 ### Relative estimation
 
-For sprint-level stories, teams estimate relative effort using a shared scale. The most common approach is the Fibonacci sequence (1, 2, 3, 5, 8, 13, 21), where the team agrees what a '1' and a '3' look like as reference points, then estimates everything else relative to those. The goal is a shared understanding of complexity, not a prediction of hours.
+For sprint-level stories, teams estimate relative effort using a shared scale. The most common approach is the Fibonacci sequence (1, 2, 3, 5, 8, 13, 21), where the team agrees what a '1' and a '3' look like as reference points, then estimates everything else relative to those. The goal is a shared understanding of complexity.
 
-!!! info "Estimation is a team conversation, not a number"
-    Story points and t-shirt sizes are planning aids and a valuable way of capturing discussion and shared understanding of the complexity of work. If your team is debating whether something is a 5 or an 8, the debate itself is the value, not the number you land on.
+!!! info "Estimation is a team conversation"
+    Story points and t-shirt sizes are planning aids and a valuable way of capturing discussion and shared understanding of the complexity of work. If your team is debating whether something is a 5 or an 8, the debate itself is the value.

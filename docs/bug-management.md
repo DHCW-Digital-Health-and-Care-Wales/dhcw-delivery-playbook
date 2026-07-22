@@ -1,6 +1,6 @@
 # Bug management
 
-All defects must be documented as bug tickets in Azure DevOps. Every bug goes through a triage process to assess impact, severity, and priority. Quality is a whole-team responsibility: bugs are not failures of the test engineer; they are signals to the whole team about where the system or our process fell short.
+All defects must be documented as bug tickets in Azure DevOps. Every bug goes through a triage process to assess impact, severity, and priority. Quality is a whole-team responsibility: bugs are signals to the whole team about where the system or our process fell short.
 
 ## How bugs enter the team
 
@@ -37,5 +37,5 @@ Medium and Low priority bugs are routed to the product backlog and prioritised b
 | --- | --- | --- | --- | --- |
 | **S1: Critical** | Live service crash. Total data loss. Pull into sprint immediately. | Core feature broken. No workaround exists. | Heavy background error. No user impact yet. | Crash on deprecated browser. Low user exposure. |
 | **S2: Major** | Major memory leak. Critical security flaw. | Core feature broken. Difficult workaround. | Non-core feature broken. Easy workaround. | Bug affecting less than 1% of users. |
-| **S3: Minor** | Broken link on a key page. Significant accessibility failure. | UI misalignment affecting daily workflow. | Slow loading on a minor page. | Minor glitch on an internal tool. |
+| **S3: Minor** | Broken link on a high-traffic page. Significant accessibility failure. | UI misalignment affecting daily workflow. | Slow loading on a minor page. | Minor glitch on an internal tool. |
 | **S4: Trivial** | Wrong logo on homepage. | Broken layout on a marketing page. | Typo in a settings menu. | Typo on a draft or internal page. |
