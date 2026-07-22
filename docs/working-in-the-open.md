@@ -36,4 +36,4 @@ The NHS Wales Solutions Exchange is the shared GitHub space for reusable code an
 
 ## Digital Service Standard for Wales
 
-The Digital Service Standard for Wales explicitly supports open ways of working. Standard 12 requires teams to make their source code open and use open standards. Teams delivering DHCW services are assessed against this standard and should be able to demonstrate how they are meeting it.
+Point 9 of the Digital Service Standard for Wales, work in the open, asks teams to make the services they build, and the techniques used to build them, as open as possible, and to publish source code where it's safe to do so. DHCW teams are assessed against the standard and should be able to show how they meet it. The Welsh Immunisation System, the first NHS Wales service to pass the standard, is the worked example.
