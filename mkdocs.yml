@@ -80,6 +80,10 @@ nav:
       - The service lifecycle: service-lifecycle.md
       - Team roles: team-roles.md
       - Before Sprint 1: before-sprint-1.md
+  - Designing for users:
+      - Understanding users and their needs: understanding-users.md
+      - Designing the whole service: whole-service-design.md
+      - Accessibility and inclusion: accessibility-and-inclusion.md
   - Planning and running the work:
       - Backlog structure: backlog-structure.md
       - Ceremonies: ceremonies.md
@@ -88,10 +92,14 @@ nav:
       - Bug management: bug-management.md
       - Technical debt: technical-debt.md
       - Delivery plans and risk: delivery-plans-and-risk.md
+      - Keeping services secure and safe: security-and-safety.md
   - Measurement and engineering:
       - Metrics and reporting: metrics-and-reporting.md
+      - Measuring success: measuring-success.md
       - Engineering practice: engineering-practice.md
       - Working in the open: working-in-the-open.md
+  - Running the service:
+      - Running a reliable service: running-a-reliable-service.md
   - Reference:
       - Reference and further reading: reference.md
       - Playbook resources: playbook-resources.md

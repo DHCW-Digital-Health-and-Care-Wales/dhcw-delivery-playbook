@@ -24,12 +24,15 @@ The chapters follow the shape of delivery, from understanding a problem through 
 
 - **[Our values and ways of working](values-and-ways-of-working.md)** connects DHCW's purpose, compassionate leadership, and agile values, and explains why the rest of the playbook looks the way it does.
 - **[The service lifecycle](service-lifecycle.md)** sets out the four phases every service moves through.
+- **[Understanding users and their needs](understanding-users.md)**, **[designing the whole service](whole-service-design.md)**, and **[accessibility and inclusion](accessibility-and-inclusion.md)** cover how we learn what people need and design a service that works for everyone in Wales.
 - **[Team roles](team-roles.md)** describes who does what and how a self-organising team holds together.
 - **[Before Sprint 1](before-sprint-1.md)** covers Team Charters, tooling, and Sprint 0.
 - **[Backlog structure](backlog-structure.md)**, **[ceremonies](ceremonies.md)**, and **[backlog management](backlog-management.md)** describe how we plan and run the work.
 - **[Bug management](bug-management.md)**, **[technical debt](technical-debt.md)**, and **[delivery plans and risk](delivery-plans-and-risk.md)** cover quality and de-risking.
-- **[Metrics and reporting](metrics-and-reporting.md)** and **[engineering practice](engineering-practice.md)** describe how we measure health and how we build.
+- **[Keeping services secure and safe](security-and-safety.md)** covers secure and private design, information governance, and clinical safety.
+- **[Metrics and reporting](metrics-and-reporting.md)**, **[measuring success](measuring-success.md)**, and **[engineering practice](engineering-practice.md)** describe how we measure team health and service outcomes, and how we build.
 - **[Working in the open](working-in-the-open.md)** explains why these artefacts should be public by default.
+- **[Running a reliable service](running-a-reliable-service.md)** covers how we operate a service well once it's live.
 
 ---
 
