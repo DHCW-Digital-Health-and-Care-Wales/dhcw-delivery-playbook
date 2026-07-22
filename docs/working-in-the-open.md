@@ -14,6 +14,12 @@ Working in the open means that, by default, the artefacts this playbook describe
 
 **Open ways of working.** This playbook is itself an example of working in the open. It describes how DHCW teams work, and it is written to be shareable beyond DHCW. Teams should apply the same thinking to their own working practices: retrospective outputs, team charters, and lessons learned should be written clearly enough to share, not locked in internal folders where no-one can learn from them.
 
+## Our default licence
+
+Publishing code openly works best when the licence is clear from the start. Our default is to release new source code under the MIT licence, and documentation under the Open Government Licence v3.0, unless there's a specific reason to choose otherwise. Add a LICENCE file to a repository when you create it, so anyone who finds the code knows how they can use it.
+
+Where it's safe to do so, develop code in the open from the start of a piece of work, in a public repository, rather than building privately and opening it up at the end. Working this way from day one is simpler than opening a codebase later, and it keeps the history of the work open too.
+
 ## What working in the open is not
 
 Working in the open does not mean publishing everything indiscriminately. Personal data, patient information, commercially sensitive supplier details, and security-relevant configuration must be handled with appropriate care and must never be published. The test is not "can we publish this?" but "is there a good reason not to?"

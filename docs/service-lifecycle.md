@@ -11,5 +11,8 @@ Before a team writes a single line of code, we need to understand what we're bui
 
 Most of this playbook describes how we work in beta and live. However, the ceremonies, backlog structure, and practices described here apply from the first discovery sprint onward.
 
+!!! info "Research keeps going into live"
+    The four phases show where different kinds of work are heaviest. They don't switch off at a phase boundary. User research in particular carries on into live, where real use is the richest source of learning. See [Understanding users and their needs](understanding-users.md).
+
 !!! info "Welsh language and accessibility from the start"
-    Under the Digital Service Standard for Wales and Welsh Language Standards, every DHCW service must be designed in Welsh and English from the outset, not retrofitted. Accessibility to WCAG 2.1 AA is a baseline requirement, not a testing concern. Both commitments appear in our Definition of Done and must be planned for from Sprint 0 onward.
+    Under the Digital Service Standard for Wales and Welsh Language Standards, every DHCW service must be designed in Welsh and English from the outset, not retrofitted. Accessibility to WCAG 2.2 AA is a baseline requirement, not a testing concern. Both commitments appear in our Definition of Done and must be planned for from Sprint 0 onward.
