@@ -45,3 +45,6 @@ A few things make usability testing work at DHCW:
 It's tempting to treat research as a discovery activity that tails off once you're building. But needs change. New users arrive. The service meets situations nobody predicted. A live service is the richest source of learning you'll get, through support tickets, analytics, and continued sessions with users.
 
 The [Team roles](team-roles.md) chapter shows user-centred design as heaviest in discovery and alpha. Heaviest still means present. Keep a thread of research running through beta and live, so the service keeps getting better for the people who depend on it.
+
+!!! info "Where the UCD guidance lives"
+    The [User-Centred Design team site](https://nhswales365.sharepoint.com/sites/DHC_UCD) is the home for user-centred design at DHCW, including how to get research support for your team. The [UCD playbooks](https://nhswales365.sharepoint.com/sites/DHC_UCD/SitePages/UCD-Playbooks.aspx) set out the methods behind this chapter in more detail. Both need an NHS Wales sign-in.

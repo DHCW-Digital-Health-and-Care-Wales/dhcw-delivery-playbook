@@ -23,7 +23,7 @@ A useful service map at DHCW shows:
 - The moments that matter most, where people get stuck, drop out, or need help.
 - The gaps and handoffs between channels, which is usually where journeys break.
 
-Use a real journey to do this: a child's immunisation from invitation to record, say, or a pharmacy consultation from walk-in to follow-up. Real journeys surface real problems that a made-up example would smooth over.
+Use a real journey to do this: a child's immunisation from invitation to record, say, or a pharmacy consultation from walk-in to follow-up. Real journeys surface real problems that a made-up example would smooth over. The [UCD playbooks](https://nhswales365.sharepoint.com/sites/DHC_UCD/SitePages/UCD-Playbooks.aspx) cover mapping methods in more detail (NHS Wales sign-in required).
 
 ## Join up the channels
 
