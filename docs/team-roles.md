@@ -35,7 +35,7 @@ A Delivery Manager also works outward. They help colleagues across DHCW understa
 
 ## Attached capabilities
 
-Attached capabilities join the team for a period, contribute as full members while they are allocated, and move on when the need changes. Their involvement is normally heaviest during discovery and alpha and lighter in beta and live, but the pattern varies by service. Architecture roles are listed here alongside the UCD roles because they work the same way: they join the team, take part in its ceremonies, and share its goals for as long as they are allocated to it. This list covers the most common attached capabilities. Others join when the work needs them.
+Attached capabilities join the team for a period, contribute as full members while they are allocated, and move on when the need changes. Their involvement is normally heaviest during discovery and alpha and lighter in beta and live, but the pattern varies by service. Architecture roles are listed here alongside the UCD roles because they work the same way: they join the team, take part in its ceremonies, and share its goals for as long as they are allocated to it. This list covers the most common attached capabilities. Others join when the work needs them. The [User-Centred Design team site](https://nhswales365.sharepoint.com/sites/DHC_UCD) sets out what each UCD role does and how to bring that capability into a team (NHS Wales sign-in required).
 
 | GDaD role | DHCW band | Purpose |
 | --- | --- | --- |

@@ -60,7 +60,7 @@ Sprint 0 is the setup phase before delivery begins. It runs for two to three wee
 - Delivery Manager, Product Owner, and Lead Software Engineer configure Azure DevOps, link to GitHub, provision environments, and set up Miro
 - Grant team access to all tools and confirm Welsh Language and accessibility commitments are understood
 - Hold an in-person kick-off workshop. Run the Team Charter workshop. Agree a draft Definition of Ready and Definition of Done
-- Confirm alignment to the Digital Service Standard for Wales and identify which phase the product is in
+- Confirm alignment to the Digital Service Standard for Wales using the [service standard self-assessment](https://nhswales365.sharepoint.com/sites/DHC_UCD/SitePages/Service-standard-self-assessment.aspx) (NHS Wales sign-in required), and identify which phase the product is in
 
 ### Week 2 – Planning and backlog setup
 

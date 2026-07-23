@@ -13,7 +13,7 @@ For each service, a team should be clear about what success looks like for users
 - **Is it working for them?** User satisfaction: what people say about the experience, and what their behaviour tells us.
 - **What does it cost to run?** Cost per transaction, so we understand the value we're getting for public money and where to improve.
 
-Set these measures early, in discovery and alpha, alongside the user needs the service exists to meet. A measure tied to a user need keeps the team pointed at the outcome.
+Set these measures early, in discovery and alpha, alongside the user needs the service exists to meet. A measure tied to a user need keeps the team pointed at the outcome. The UCD [training and resources](https://nhswales365.sharepoint.com/sites/DHC_UCD/SitePages/Training-and-resources.aspx) page has a section on measuring value that helps a team choose measures worth tracking (NHS Wales sign-in required).
 
 ## Watch for who's left out
 

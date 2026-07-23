@@ -3,7 +3,7 @@
 *How DHCW builds healthy teams, and how those teams build and run digital services for the people of Wales.*
 
 !!! note "Draft for Discussion"
-    **Version 0.5** &middot; 22 July 2026 &middot; Owner: Digital Health and Care Wales
+    **Version 0.6** &middot; 23 July 2026 &middot; Owner: Digital Health and Care Wales
 
     This is a living document. It will improve as more teams use it and contribute back.
 
