@@ -50,14 +50,23 @@ The team should always look to have a runway of two to three sprints worth of wo
 
 A ticket is done when it meets all of the following criteria. These standards apply uniformly across all ticket types unless the team has agreed a specific exception and documented it. Quality is the whole team's responsibility: there is no separate QA gate.
 
-- [ ] Code is reviewed by at least one peer and merged to the main branch
+- [ ] Code is reviewed and approved by at least one peer and merged to the main branch. Pairing or mobbing on the change counts, since the review happens as the work is done
 - [ ] All automated tests pass in the CI/CD pipeline
-- [ ] New functionality is covered by automated tests at an appropriate level
-- [ ] The change is deployable to production at any time (or protected behind a feature flag)
+- [ ] Unit tests cover all new functionality and pass
+- [ ] Integration tests are written and pass
+- [ ] API automated tests cover at least 80% of the story's acceptance criteria
 - [ ] Acceptance criteria are met and have been validated against the running software
 - [ ] No known defects have been introduced
+- [ ] Technical and user-facing documentation is updated where needed
+- [ ] The change is production-ready and deployable to production at any time, behind a feature flag where needed
 - [ ] Azure DevOps ticket is updated and closed
 - [ ] Release notes or change log updated
+- [ ] The appropriate local engineering process has been followed
+
+!!! info "Continuous delivery is the expectation"
+    A change that meets this Definition of Done is production-ready and can deploy to production at any time. Teams that don't yet deploy straight to production use a staging or QA environment as an interim step, and are expected to keep moving towards continuous delivery over time.
+
+The team reviews its Definition of Done at each retrospective to keep it relevant and current.
 
 ### Cross-cutting controls
 
