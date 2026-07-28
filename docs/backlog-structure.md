@@ -1,8 +1,8 @@
 # Backlog structure
 
-## Ticket hierarchy
+## Work item hierarchy
 
-Everything the team does is tracked in Azure DevOps. The ticket hierarchy below applies across all DHCW product teams.
+Everything the team does is tracked in Azure DevOps. The work item hierarchy below applies across all DHCW product teams.
 
 | Level | Type | Description | Horizon | Owner |
 | --- | --- | --- | --- | --- |
@@ -16,7 +16,7 @@ Everything the team does is tracked in Azure DevOps. The ticket hierarchy below 
 
 ## Tagging user stories and epics
 
-Every Epic and User Story carries one organisation-level tag. Tags give DHCW a consistent view across teams of where effort is going, so leadership can see the balance between new value, maintenance, and learning across the whole portfolio. Tags are applied in Azure DevOps and add a portfolio view on top of the work item type.
+Every Epic and User Story carries one organisation-level tag. Tags give DHCW a consistent view across teams of where effort is going, so leadership can see the balance between new value, maintenance, and fixing problems.
 
 | Tag | When to use it |
 | --- | --- |
@@ -26,21 +26,21 @@ Every Epic and User Story carries one organisation-level tag. Tags give DHCW a c
 | **Research and Development** | Work to reduce uncertainty or explore a new idea, such as a spike or a proof of concept. |
 
 !!! info "Bug is both a work item type and a tag"
-    Bug appears in the ticket hierarchy as a work item type and here as an organisation-level tag. Every ticket raised as a Bug work item type is tagged Bug. The tag also lets us report on corrective work that is captured inside a User Story rather than as a standalone Bug ticket.
+    Bug appears in the work item hierarchy as a work item type and here as an organisation-level tag. Every work item raised as a Bug type is tagged Bug. The tag also lets us report on corrective work that is captured inside a User Story rather than as a standalone Bug work item.
 
 ## Product Goal
 
-A backlog tells you what you might build. A Product Goal tells you where you are heading, and why. It is the one meaningful outcome the team is working towards right now, written plainly enough that everyone can repeat it.
+A backlog tells you what you might build. A Product Goal tells you where you are heading, and why. It is the one meaningful outcome the team is working towards right now, written plainly enough that anyone can tell whether you have reached it.
 
-A good Product Goal describes a future state of the product that matters to users. "Every eligible child in Wales has an accurate, near real-time immunisation record" is a Product Goal. It is bigger than a single sprint and smaller than the whole roadmap. It sits at the top of the backlog, and the rest of the backlog exists to reach it. Every sprint goal should point at it.
+A good Product Goal describes a future state of the product that matters to users. "Every eligible child in Wales has an accurate, near real-time immunisation record" is a Product Goal. It is bigger than any single sprint, it is measurable, and it gives the backlog a point.
 
-Work towards one Product Goal at a time. Reach it, or decide together to let it go, before you take on the next. Holding a single goal keeps the team pulling in one direction, and it makes it obvious when a piece of work has drifted away from what matters.
+Work towards one Product Goal at a time. Reach it, or decide together to let it go, before you take on the next. Holding a single goal keeps the team pulling in one direction, and it makes it obvious when the backlog has drifted away from what matters.
 
-The Product Owner owns the Product Goal, shapes it with the team, and keeps it visible. Revisit it when the world changes. If it no longer describes where you are heading, change it in the open and tell people why.
+The Product Owner owns the Product Goal, shapes it with the team, and keeps it visible. Revisit it when the world changes. If it no longer describes where you are heading, change it in the open and explain why.
 
 ## Product roadmap: Now, Next, Later
 
-DHCW teams use a three-horizon roadmap to balance near-term delivery with longer-term direction. This framework keeps planning light while giving stakeholders a reasonable view of the direction of the product.
+DHCW teams use a three-horizon roadmap to balance near-term delivery with longer-term direction. This framework keeps planning light while giving stakeholders a reasonable view of the direction of travel.
 
 | Horizon | Timeframe | What it contains |
 | --- | --- | --- |
@@ -64,7 +64,7 @@ For roadmap planning and features in the Next and Later horizons, teams use t-sh
 
 ### Relative estimation
 
-For sprint-level stories, teams estimate relative effort using a shared scale. The most common approach is the Fibonacci sequence (1, 2, 3, 5, 8, 13, 21), where the team agrees what a '1' and a '3' look like as reference points, then estimates everything else relative to those. The goal is a shared understanding of complexity.
+For sprint-level stories, teams estimate relative effort using a shared scale. The most common approach is the Fibonacci sequence (1, 2, 3, 5, 8, 13, 21), where the team agrees what a '1' and a '3' look like and estimates other stories in relation to them.
 
 !!! info "Estimation is a team conversation"
-    Story points and t-shirt sizes are planning aids and a valuable way of capturing discussion and shared understanding of the complexity of work. If your team is debating whether something is a 5 or an 8, the debate itself is the value.
+    Story points and t-shirt sizes are planning aids and a valuable way of capturing discussion and shared understanding of the complexity of work. If your team is debating whether something is a 3 or a 5, the conversation is the point, not the number.
