@@ -86,6 +86,7 @@ nav:
       - Accessibility and inclusion: accessibility-and-inclusion.md
   - Planning and running the work:
       - Backlog structure: backlog-structure.md
+      - Definitions of Ready and Done: definition-of-ready-and-done.md
       - Ceremonies: ceremonies.md
       - Backlog management: backlog-management.md
   - Quality and risk:

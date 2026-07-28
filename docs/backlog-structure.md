@@ -28,56 +28,6 @@ Every Epic and User Story carries one organisation-level tag. Tags give DHCW a c
 !!! info "Bug is both a work item type and a tag"
     Bug appears in the ticket hierarchy as a work item type and here as an organisation-level tag. Every ticket raised as a Bug work item type is tagged Bug. The tag also lets us report on corrective work that is captured inside a User Story rather than as a standalone Bug ticket.
 
-## Definition of Ready
-
-A ticket is ready for sprint planning when it meets all of the following criteria. If it fails any of these, it stays in the backlog for further refinement. The team has the right to reject tickets at refinement.
-
-The team should always look to have a runway of two to three sprints worth of work that is "ready" to be taken into sprint. This ensures a steady pipeline of work, realistic near-term planning, and allows the team to respond to unexpected events.
-
-- [ ] User story or ticket is written in a format the team understands
-- [ ] Acceptance criteria are defined and testable (Given / When / Then format recommended)
-- [ ] The ticket is small enough to complete within a single sprint
-- [ ] Dependencies are identified and noted on the ticket
-- [ ] The technical platform the story is built on is ready before the story enters the sprint
-- [ ] Designs or wireframes are attached where the ticket has a user-facing interface
-- [ ] Welsh Language requirements for any user-facing content have been considered
-- [ ] The team has reviewed the ticket at refinement and estimates it collectively
-
-!!! info "What platform ready means"
-    A story is only ready when the technical platform it depends on already exists. The environments, services, pipelines, and infrastructure the story needs must be in place and usable before the story enters the sprint. If the platform is still being built, that platform work is a dependency in its own right and must be completed first. Pulling a story into a sprint before its platform is ready leads to blocked work and unreliable delivery forecasts.
-
-## Definition of Done
-
-A ticket is done when it meets all of the following criteria. These standards apply uniformly across all ticket types unless the team has agreed a specific exception and documented it. Quality is the whole team's responsibility: there is no separate QA gate.
-
-- [ ] Code is reviewed and approved by at least one peer and merged to the main branch. Pairing or mobbing on the change counts, since the review happens as the work is done
-- [ ] All automated tests pass in the CI/CD pipeline
-- [ ] Unit tests cover all new functionality and pass
-- [ ] Integration tests are written and pass
-- [ ] API automated tests cover at least 80% of the story's acceptance criteria
-- [ ] Acceptance criteria are met and have been validated against the running software
-- [ ] No known defects have been introduced
-- [ ] Technical and user-facing documentation is updated where needed
-- [ ] The change is production-ready and deployable to production at any time, behind a feature flag where needed
-- [ ] Azure DevOps ticket is updated and closed
-- [ ] Release notes or change log updated
-- [ ] The appropriate local engineering process has been followed
-
-!!! info "Continuous delivery is the expectation"
-    A change that meets this Definition of Done is production-ready and can deploy to production at any time. Teams that don't yet deploy straight to production use a staging or QA environment as an interim step, and are expected to keep moving towards continuous delivery over time.
-
-The team reviews its Definition of Done at each retrospective to keep it relevant and current.
-
-### Cross-cutting controls
-
-Cross-cutting controls are legal, safety, or organisational requirements that apply to every ticket regardless of type. Unlike the criteria above, these cannot be waived by a team-level exception: they reflect obligations placed on DHCW as an organisation. Where a control does not apply to a given ticket, record why on the ticket rather than removing the check.
-
-- [ ] Cyber security requirements for the change have been met, including secure handling of any data the change touches
-- [ ] User-facing interfaces meet WCAG 2.2 AA accessibility standards
-- [ ] User-facing content meets Welsh Language Standards
-- [ ] The change meets applicable technical and data standards
-- [ ] Clinical safety obligations have been met where the change is in scope (DCB0129 / DCB0160)
-
 ## Product Goal
 
 A backlog tells you what you might build. A Product Goal tells you where you are heading, and why. It is the one meaningful outcome the team is working towards right now, written plainly enough that everyone can repeat it.
