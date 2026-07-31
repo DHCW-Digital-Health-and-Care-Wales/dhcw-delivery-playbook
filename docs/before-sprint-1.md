@@ -55,21 +55,21 @@ DHCW teams use a consistent tooling stack to support collaboration and delivery.
 
 Sprint 0 is the setup phase before delivery begins. It runs for two to three weeks and establishes the conditions for sustained, high-quality delivery. It is when the team forms as a team.
 
-### Week 1 – Infrastructure and alignment
+### Week 1 – infrastructure and alignment
 
 - Delivery Manager, Product Owner, and Lead Software Engineer configure Azure DevOps, link to GitHub, provision environments, and set up Miro
 - Grant team access to all tools and confirm Welsh Language and accessibility commitments are understood
 - Hold an in-person kick-off workshop. Run the Team Charter workshop. Agree a draft Definition of Ready and Definition of Done
 - Confirm alignment to the Digital Service Standard for Wales using the [service standard self-assessment](https://nhswales365.sharepoint.com/sites/DHC_UCD/SitePages/Service-standard-self-assessment.aspx) (NHS Wales sign-in required), and identify which phase the product is in
 
-### Week 2 – Planning and backlog setup
+### Week 2 – planning and backlog setup
 
-- Product Owner leads a high-level product mapping session in Miro, establishing the Now / Next / Later roadmap
+- Product owner leads a high-level product mapping session in Miro, establishing the now / next / later roadmap
 - Collaboratively break down high-level goals into epics and features in ADO
 - Begin backlog refinement: break features into user stories with the whole team
 - Complete a baseline estimation exercise so the team shares a common understanding of relative size
 
-### Week 3 – First sprint
+### Week 3 – first sprint
 
 - Delivery Manager sends calendar invites for all sprint ceremonies
 - First Sprint Planning: agree the sprint goal and pull a sprint backlog. Sprint 1 is typically heavier on spikes as the team learns the codebase and system

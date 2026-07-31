@@ -1,18 +1,18 @@
 # Team roles
 
-DHCW uses the Government Digital and Data (GDaD, formerly DDaT) capability framework for all professional roles in product and service delivery. We describe a product team as a small, stable **core** with a set of **attached capabilities** that join for a period and change over time. Everyone working with the team, for as long as they are working with it, is a member of the team.
+DHCW uses the [Government Digital and Data (GDaD, formerly DDaT) capability framework](https://ddat-capability-framework.service.gov.uk/) for all professional roles in product and service delivery. We describe a product team as a small, stable **core** with a set of **attached capabilities** that join for a period and change over time. Everyone working with the team, for as long as they are working with it, is a member of the team.
 
-The **core** is the part of the team that stays constant across the whole service lifecycle. The Product Owner and Delivery Manager are core members present at every phase, alongside the engineering and test capability that builds and assures the product. The core carries the memory of the work: the decisions made, the user needs uncovered, and the reasons behind them.
+The **core** is the part of the team that stays constant across the whole service lifecycle. The product owner and delivery manager are core members present at every phase, alongside the engineering and test capability that builds and assures the product. The core carries the memory of the work: the decisions made, the user needs uncovered, and the reasons behind them.
 
-**Attached capabilities** are roles that join the team for a period and then move on as the need changes. User-centred design (UCD) roles, the Business Analyst, and architecture roles are all attached capabilities. Their involvement is normally heaviest during discovery and alpha, when the team is shaping the problem and testing an approach, and lighter in beta and live. Architecture is treated exactly like the UCD roles: an attached capability that joins the team.
+**Attached capabilities** are roles that join the team for a period and then move on as the need changes. User-centred design (UCD) roles, the business analyst, and architecture roles are all attached capabilities. Their involvement is normally heaviest during discovery and alpha, when the team is shaping the problem and testing an approach, and lighter in beta and live. Architecture is treated exactly like the UCD roles: an attached capability that joins the team.
 
 The cultural message matters more than the diagram. If you are allocated to a team for a sprint, you are on that team for that sprint. You attend its ceremonies, you share its goals, and you take shared responsibility for what it ships. Attached means part-time in duration and full-time in commitment.
 
 ## The core team
 
-A product team has no traditional management hierarchy. The Product Owner and Delivery Manager have a joint, collaborative relationship at the heart of the team, but they are not directing it from above. The Product Owner is focused on the problem space: what the team is building, for whom, and why. The Delivery Manager is focused on the team itself: creating the conditions for good work, removing blockers, handling the practical realities of line management, and making sure the team has what it needs to sustain a healthy pace. Both roles serve the team.
+A product team has no traditional management hierarchy. The product owner and delivery manager have a joint, collaborative relationship at the heart of the team, but they are not directing it from above. The product owner is focused on the problem space: what the team is building, for whom, and why. The delivery manager is focused on the team itself: creating the conditions for good work, removing blockers, handling the practical realities of line management, and making sure the team has what it needs to sustain a healthy pace. Both roles serve the team.
 
-Teams are expected to be self-organising. The people closest to the work make the decisions about how to do it. The Service Owner sets the direction and holds accountability for outcomes, but within that boundary the team has real autonomy. That autonomy only works if the team takes it seriously: self-organisation is the deliberate choice to build structure together rather than have it imposed.
+Teams are expected to be self-organising. The people closest to the work make the decisions about how to do it. The service owner sets the direction and holds accountability for outcomes, but within that boundary the team has real autonomy. That autonomy only works if the team takes it seriously: self-organisation is the deliberate choice to build structure together rather than have it imposed.
 
 | GDaD role | DHCW band | Purpose |
 | --- | --- | --- |
@@ -23,15 +23,15 @@ Teams are expected to be self-organising. The people closest to the work make th
 | **Test Engineer** | Band 4–7 | Quality is a whole-team responsibility. Test Engineers bring specialist skills in test strategy, automation, and exploratory testing. They help the team build quality in from the start. |
 
 !!! info "A note on team size and composition"
-    DHCW product teams typically include 4 software engineers and 2 test engineers per team, supported by a Product Owner and Delivery Manager as the stable core. Attached capabilities may be shared across teams or brought in for specific pieces of work. Where roles are shared, the team must agree clearly on how time is split and who owns each responsibility.
+    DHCW product teams typically include 4 software engineers and 2 test engineers per team, supported by a product owner and delivery manager as the stable core. Attached capabilities may be shared across teams or brought in for specific pieces of work. Where roles are shared, the team must agree clearly on how time is split and who owns each responsibility.
 
-## How the Delivery Manager serves beyond the team
+## How the delivery manager serves beyond the team
 
-Most of a Delivery Manager's work is with their own team. Some of the most valuable work happens at the edges, where the team meets the rest of the organisation.
+Most of a delivery manager's work is with their own team. Some of the most valuable work happens at the edges, where the team meets the rest of the organisation.
 
-A Delivery Manager supports the Product Owner as well as the team. That can mean coaching a newer Product Owner on how to shape a Product Goal, keep a backlog healthy, or plan in a way that copes with uncertainty. When stakeholders need to be brought together, the Delivery Manager helps make that happen and keeps it useful.
+A delivery manager supports the product owner as well as the team. That can mean coaching a newer product owner on how to shape a product goal, keep a backlog healthy, or plan in a way that copes with uncertainty. When stakeholders need to be brought together, the delivery manager helps make that happen and keeps it useful.
 
-A Delivery Manager also works outward. They help colleagues across DHCW understand how the team works and why. They smooth the path for teams that are new to working this way. And they clear the organisational blockers that a team cannot clear on its own. Removing the barriers between a team and the people it serves is a core part of the job.
+A delivery manager also works outward. They help colleagues across DHCW understand how the team works and why. They smooth the path for teams that are new to working this way. And they clear the organisational blockers that a team cannot clear on its own. Removing the barriers between a team and the people it serves is a core part of the job.
 
 ## Attached capabilities
 
@@ -51,13 +51,13 @@ Attached capabilities join the team for a period, contribute as full members whi
 !!! info "Allocation is membership"
     At DHCW, architectural oversight is coordinated through the Technical Design and Assurance function, and teams should involve their allocated architect early, before committing to major technical direction. While an architect is allocated to a team, they are a member of that team: they attend the ceremonies that are relevant to their work and share responsibility for the outcome, in the same way as any other attached capability.
 
-## The Service Owner
+## The service owner
 
-Above the product team sits the Service Owner (typically Band 8B), who is accountable for how well the service meets user needs. The Service Owner sets direction from outside the team's day to day, represents the service to stakeholders and governance bodies, and holds accountability for outcomes. The Product Owner works within the direction set by the Service Owner.
+Above the product team sits the service owner (typically Band 8B), who is accountable for how well the service meets user needs. The service owner sets direction from outside the team's day to day, represents the service to stakeholders and governance bodies, and holds accountability for outcomes. The product owner works within the direction set by the service owner.
 
 ## Capabilities across the lifecycle
 
-The table below shows how the core and attached capabilities engage across the service lifecycle. The Product Owner and Delivery Manager are core in every phase. Engineering and test are also core, growing from a lighter presence in discovery to full delivery in beta and live. Attached capabilities are heaviest during discovery and alpha and lighter later, but they remain full members of the team whenever they are allocated to it.
+The table below shows how the core and attached capabilities engage across the service lifecycle. The product owner and delivery manager are core in every phase. Engineering and test are also core, growing from a lighter presence in discovery to full delivery in beta and live. Attached capabilities are heaviest during discovery and alpha and lighter later, but they remain full members of the team whenever they are allocated to it.
 
 | Capability | Discovery | Alpha | Beta | Live |
 | --- | --- | --- | --- | --- |

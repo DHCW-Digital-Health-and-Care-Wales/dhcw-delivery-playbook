@@ -1,6 +1,6 @@
 # The service lifecycle
 
-Before a team writes a single line of code, we need to understand what we're building and why. Every DHCW product or service moves through the phases of the agile lifecycle set out in the GOV.UK Service Manual: discovery, alpha, beta, live, and eventually retirement. The Digital Service Standard for Wales expects services to work this way (point 8, iterate and improve frequently). This playbook covers all of them, though the emphasis shifts depending on where you are.
+Before a team writes a single line of code, we need to understand what we're building and why. Every DHCW product or service moves through the phases of the agile lifecycle set out in the [GOV.UK Service Manual guidance on agile delivery](https://www.gov.uk/service-manual/agile-delivery): discovery, alpha, beta, live, and eventually retirement. The [Digital Service Standard for Wales](https://digitalpublicservices.gov.wales/guidance-and-standards/digital-service-standard-wales) expects services to work this way (point 8, iterate and improve frequently). This playbook covers all of them, though the emphasis shifts depending on where you are.
 
 | Phase | What it means |
 | --- | --- |
@@ -16,4 +16,4 @@ Most of this playbook describes how we work in beta and live. However, the cerem
     The four phases show where different kinds of work are heaviest. They don't switch off at a phase boundary. User research in particular carries on into live, where real use is the richest source of learning. See [Understanding users and their needs](understanding-users.md).
 
 !!! info "Welsh language and accessibility from the start"
-    Under the Digital Service Standard for Wales and Welsh Language Standards, every DHCW service must be designed in Welsh and English from the outset. Accessibility to WCAG 2.2 AA is a baseline requirement that belongs to the whole team. Both commitments appear in our Definition of Done and must be planned for from Sprint 0 onwards.
+    Under the Digital Service Standard for Wales and Welsh Language Standards, public-facing DHCW services must be designed in Welsh and English from the outset. Teams should confirm which elements are user-facing in Sprint 0 and before Sprint 1 (see [Before Sprint 1](before-sprint-1.md)). Accessibility to WCAG 2.2 AA is a baseline requirement that belongs to the whole team. Both commitments appear in our Definition of Done and must be planned for from Sprint 0 onwards.

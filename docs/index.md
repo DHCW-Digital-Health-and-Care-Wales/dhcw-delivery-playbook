@@ -1,6 +1,6 @@
 # DHCW Product and Service Delivery Playbook
 
-*Helping teams thrive so they can make digital a force for good in health and care for the people of Wales.*
+Helping teams thrive so they can make digital a force for good in health and care for the people of Wales.
 
 !!! info "Great teams, great services"
     Great digital services are created by great teams. This playbook describes how DHCW builds healthy, empowered and multidisciplinary teams, and how those teams design, deliver and operate digital products and services that improve health and care outcomes across Wales.
@@ -14,12 +14,14 @@
 
 DHCW delivers digital services that clinicians, patients, and the people of Wales depend on every day. Getting that delivery right matters.
 
-This playbook describes how our product and service delivery teams work. It covers the roles we use, how we organise our backlogs, the cadence of our ceremonies, and the engineering standards that make sustained delivery possible. It is grounded in real experience building and running services at DHCW, and it aligns to the Digital Service Standard for Wales, DDaT job families, and our own Target Operating Model.
+This playbook describes how our product and service delivery teams work. It covers the roles we use, how we organise our backlogs, the cadence of our ceremonies, and the engineering standards that make sustained delivery possible. It is grounded in real experience building and running services at DHCW, and it aligns to the [Digital Service Standard for Wales](https://digitalpublicservices.gov.wales/guidance-and-standards/digital-service-standard-wales), [DDaT job families](https://ddat-capability-framework.service.gov.uk/), and our own Target Operating Model (public URL to be confirmed by Joshua).
 
-It is a living document. We expect it to improve as more teams use it and contribute back. If something in here doesn't reflect how good delivery actually works in your context, raise it. The goal is a shared foundation that every team helps to improve.
+We want you to help us shape this playbook. If something does not reflect how good delivery works in your context, tell us. Every suggestion, challenge and improvement helps us build a stronger shared foundation for everyone.
 
-!!! info "How firm is this playbook?"
-    Three levels run through everything here. **Controls** are legal and safety obligations: clinical safety, accessibility, Welsh language, data protection. They always apply and are marked as controls where they appear. **Defaults** are where every DHCW team starts: the ticket hierarchy, the ceremony cadence, the Definition of Done. Adapt a default when you have a reason, and tell us, so the playbook improves. **Suggestions**, like facilitation formats and tool choices, are yours to take or leave.
+!!! info "What's required, recommended or optional?"
+    - **Controls** are the required legal and safety obligations: clinical safety, accessibility, Welsh language and data protection. They always apply and are marked as controls where they appear.
+    - **Defaults** are where every DHCW team starts: the ticket hierarchy, the ceremony cadence, the Definition of Done. Adapt a default when you have a reason, and tell us, so the playbook improves.
+    - **Suggestions**, such as facilitation formats and tool choices, are optional ideas you can take or leave.
 
 ## How to use this playbook
 
