@@ -17,13 +17,13 @@ In practice, that means:
 
 ## Meet WCAG 2.2 AA
 
-Our baseline standard is WCAG 2.2 level AA. Every user-facing interface is expected to meet it, and it belongs in the Definition of Done for every team.
+Our baseline standard is [WCAG 2.2 level AA](https://www.w3.org/TR/WCAG22/). Every user-facing interface is expected to meet it, and it belongs in the Definition of Done for every team.
 
-Meeting the standard is a whole-team job. Designers build accessible patterns, engineers implement them properly, content designers keep language clear, and testers check the result with real assistive technology. Automated checks catch some issues. Many of the ones that matter most, like whether a screen reader announces a form error in a way that makes sense, need a person to test them.
+Meeting the standard is a whole-team job. Designers build accessible patterns, engineers implement them properly, content designers keep language clear, and testers check the result with real assistive technology. Automated checks catch some issues. Many of the ones that matter most, like whether a screen reader announces a form error in a way that makes sense, need a person to test them. The [GOV.UK guide to understanding WCAG](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag) gives a practical summary.
 
 ## Publish an accessibility statement
 
-Every public-facing service needs an accessibility statement. It tells people how accessible the service is, what to do if they hit a barrier, and how to get help or an alternative. It's a legal requirement for public sector services, and a plain courtesy to users. Keep it current: if part of the service isn't fully accessible yet, say so, and say what you're doing about it.
+Every public-facing service needs an accessibility statement. It tells people how accessible the service is, what to do if they hit a barrier, and how to get help or an alternative. It's a legal requirement for public sector services, and a plain courtesy to users. Follow [GOV.UK guidance on publishing an accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement#publish-your-accessibility-statement) and keep it current: if part of the service isn't fully accessible yet, say so, and say what you're doing about it.
 
 ## Support people who don't use digital
 
@@ -33,6 +33,6 @@ That means designing a supported route with the same care as the digital one: a 
 
 ## Welsh language is part of inclusion
 
-For many people in Wales, Welsh is the language they think, speak, and receive care in. Offering a service in Welsh is a duty under the Welsh Language Standards, and a matter of equity. A Welsh speaker should get a service that is as complete and as good as the English one. We design in both languages from the outset, so the Welsh experience is shaped as the service is built.
+For many people in Wales, Welsh is the language they think, speak, and receive care in. Offering a service in Welsh is a duty under the Welsh Language Standards and the [DHCW Welsh Language Scheme](https://dhcw.nhs.wales/about-us/welsh-language/files/dhcw-welsh-language-scheme-2025-27/), and a matter of equity. A Welsh speaker should get a service that is as complete and as good as the English one. We design in both languages from the outset, so the Welsh experience is shaped as the service is built.
 
-The Content Designer role (see [Team roles](team-roles.md)) helps make sure content works equally well in both languages from day one.
+The content designer role (see [Team roles](team-roles.md)) helps make sure content works equally well in both languages from day one.

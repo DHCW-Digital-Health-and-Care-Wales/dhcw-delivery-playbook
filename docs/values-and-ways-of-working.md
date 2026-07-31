@@ -21,7 +21,7 @@ is a test we can apply to our own work, because it asks who benefits and how we'
 know. A product or service that saves the organisation money and costs a district
 nurse twenty minutes a day hasn't passed it.
 
-The Well-being of Future Generations (Wales) Act 2015 asks something similar of
+[The Well-being of Future Generations (Wales) Act 2015](https://futuregenerations.wales/discover/about-future-generations-commissioner/future-generations-act-2015/) asks something similar of
 every Welsh public body: meet the needs of the present without compromising the
 ability of future generations to meet theirs. Accessibility and the Welsh
 language sit alongside that. They're legal duties, and they apply from the first
@@ -45,7 +45,7 @@ team.
 ## Compassionate leadership
 
 NHS Wales uses the compassionate leadership approach developed with Health
-Education and Improvement Wales (HEIW), grounded in Michael West's research. It
+Education and Improvement Wales (HEIW), grounded in Michael West's research (source link to be confirmed by Joshua, likely via The King's Fund or https://www.michaelwest.org.uk/). It
 describes four behaviours, and they belong to everyone in a team, whatever their
 job title.
 
@@ -57,7 +57,7 @@ job title.
 | Helping | Taking thoughtful action to remove obstacles and support people to do their best work. |
 
 These behaviours complement good delivery practice. They line up closely with the
-values set out in the Agile Manifesto and the Scrum Guide.
+values set out in the [Agile Manifesto](https://agilemanifesto.org/) and the [Scrum Guide](https://scrumguides.org/).
 
 ## Psychological safety
 
@@ -141,22 +141,3 @@ goals, clinical safety standards, architectural constraints and funding come fro
 outside the team. The goal is that a team can solve the vast majority of its
 problems within the team, and empower itself to do so, not that a team sits in
 isolation from context.
-
-## How to use this playbook
-
-Nobody reads a playbook end to end. Use it when there's a reason: a team is
-forming, you're starting something new, or a practice has stopped working and you
-want a place to start again.
-
-Take it in pieces. A team that adopts everything in here at once will do all of
-it badly. Pick the thing that's costing you most, get it working, then pick the
-next one.
-
-Treat what's here as the default. A team that wants to work differently can, as
-long as it can explain why and the reasoning holds up when the team looks back at
-it. That's how the playbook gets better.
-
-The chapters are ordered by service lifecycle. Very few teams will work through
-them in that order, so read them out of sequence and take what's useful.
-
-This playbook won't be used to assess teams. It's here to help you do the work.

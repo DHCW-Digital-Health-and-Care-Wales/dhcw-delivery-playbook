@@ -10,7 +10,7 @@ People don't experience organisational boundaries. A parent booking a child's va
 
 So a team has to look up from its own backlog and ask what the person is really trying to do, from start to finish. The real goal sits behind the task. A parent booking a vaccination is trying to protect their child. When we design for that deeper goal, we often find the most useful improvement sits just outside our system, in a confusing letter or a step that makes people phone up.
 
-The **Service Designer** role (see [Team roles](team-roles.md)) leads this thinking. Their job is to map the end-to-end journey across every touchpoint and team boundary, and to find where a change will do the most good. A whole team benefits from thinking this way, whatever people's roles.
+The **service designer** role (see [Team roles](team-roles.md)) leads this thinking. Their job is to map the end-to-end journey across every touchpoint and team boundary, and to find where a change will do the most good. A whole team benefits from thinking this way, whatever people's roles.
 
 ## Map the journey
 
@@ -35,10 +35,10 @@ Joining up means:
 - What someone does in one channel is known in the next, so they don't have to start again or repeat themselves.
 - People who can't or won't use the digital route can still complete the journey another way, and that route is designed with the same care.
 
-Point 4 of the Digital Service Standard for Wales (provide a joined up experience) and our own duty to serve everyone in Wales both point the same way. A digital service that only works for digital-confident people isn't finished.
+[Point 4 of the Digital Service Standard for Wales (provide a joined-up experience)](https://digitalpublicservices.gov.wales/guidance-and-standards/digital-service-standard-wales/meet-user-needs#4.-provide-a-joined-up-experience) and our own duty to serve everyone in Wales both point the same way. A digital service that only works for digital-confident people isn't finished.
 
 ## Keep the whole thing simple
 
 Simple to use is a property of the whole journey. A clean screen doesn't help if the letter that led to it was baffling, or if finishing the task means a phone call the person didn't expect.
 
-Keeping a service simple means removing steps people don't need, using plain language everywhere (see the Content Designer role in [Team roles](team-roles.md)), and testing the whole flow with real users rather than checking each screen on its own. When a person can get from their first thought to a finished outcome without confusion, extra help, or an unwanted phone call, the service is doing its job.
+Keeping a service simple means removing steps people don't need, using plain language everywhere (see the content designer role in [Team roles](team-roles.md)), and testing the whole flow with real users rather than checking each screen on its own. When a person can get from their first thought to a finished outcome without confusion, extra help, or an unwanted phone call, the service is doing its job.
