@@ -33,4 +33,4 @@ These metrics help the team plan and reflect. They should be visible to the team
 - Technical debt risk (tracked at the team level)
 
 !!! example "DHCW example – Welsh Immunisation System"
-    The Welsh Immunisation System reduced its regression testing runtime from six weeks (manual) to three hours (automated). UI test coverage went from zero to full. Release lead time fell from approximately 90 days to approximately 20 days. These are the outcomes that good engineering practice and healthy DORA metrics produce. They are what we are building towards across all DHCW products.
+    The Welsh Immunisation System reduced its regression testing runtime from six weeks (manual) to three hours (automated). UI test coverage went from zero to full. Release lead time fell from approximately 90 days to approximately 20 days. These are the outcomes that good engineering practices and team work produce, that DORA metrics can help illustrate, and aid continous improvement. They are what we are building towards across all DHCW products.
