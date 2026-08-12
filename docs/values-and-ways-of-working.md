@@ -45,7 +45,7 @@ team.
 ## Compassionate leadership
 
 NHS Wales uses the compassionate leadership approach developed with Health
-Education and Improvement Wales (HEIW), grounded in Michael West's research (source link to be confirmed by Joshua, likely via The King's Fund or https://www.michaelwest.org.uk/). It
+Education and Improvement Wales (HEIW), grounded in [Professor Michael West's research](https://www.michaelwest.org.uk/). It
 describes four behaviours, and they belong to everyone in a team, whatever their
 job title.
 
