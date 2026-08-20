@@ -1,6 +1,6 @@
 # Before Sprint 1: setting up to succeed
 
-## Team Charter
+## Team charter
 
 Before writing code, a product team must align on how they work together. High-performing teams build a social framework deliberately. A Team Charter is a short, co-created document that binds cultural expectations with day-to-day working agreements. It is created by the whole team during **Sprint 0**.
 

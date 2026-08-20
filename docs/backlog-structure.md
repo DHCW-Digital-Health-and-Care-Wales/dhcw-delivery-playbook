@@ -52,7 +52,7 @@ DHCW teams use a three-horizon roadmap to balance near-term delivery with longer
 
 ### T-shirt sizing
 
-For roadmap planning and features in the Next and Later horizons, teams use t-shirt sizing to give a rough sense of scale. T-shirt sizing is a conversation starter.
+For roadmap planning and features in the next and later horizons, teams use t-shirt sizing to give a rough sense of scale. T-shirt sizing is a conversation starter.
 
 | Size | Approximate scale |
 | --- | --- |
