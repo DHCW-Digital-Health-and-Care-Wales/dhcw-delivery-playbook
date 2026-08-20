@@ -25,7 +25,7 @@ Every debt item is captured as a ticket in Azure DevOps so that it is visible, e
 - **Pay it down steadily:** pay debt down in small, regular steps rather than waiting for a large remediation project that rarely arrives
 
 !!! info "Debt is a whole-team responsibility"
-    Deciding how much debt to carry, and when to pay it down, is a conversation between the product owner and the delivery team. engineers surface the technical cost and risk; the product owner weighs that against user and business priorities. The balance is agreed together.
+    Deciding how much debt to carry, and when to pay it down, is a conversation between the product owner and the delivery team. Engineers surface the technical cost and risk; the product owner weighs that against user and business priorities. The balance is agreed together.
 
 ## How much capacity to spend
 

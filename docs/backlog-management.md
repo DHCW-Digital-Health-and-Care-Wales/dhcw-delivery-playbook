@@ -16,9 +16,9 @@ The following board structure maps how ideas move from initial concept to sprint
 | Stage | Description | Type |
 | --- | --- | --- |
 | **Idea** | Initial intake. Anyone can submit a concept, feature request, or problem statement. The product owner decides what enters the flow. | Waiting |
-| **In PM analysis** | product owner assesses business value, alignment with the roadmap, and user need. Sets the high-level goal for the ticket. | Active |
-| **Ready for design** | Ticket is ready for UCD input. product owner manages priority and ensures designers are working on the highest-value items. | Waiting |
-| **In design** | interaction designer, service designer, or user researcher works on the ticket – user flows, interface designs, or technical design as appropriate. | Active |
-| **Design approved** | product owner reviews completed designs against the original goal and approves or returns for revision. | Active |
-| **In business analysis** | business analyst writes detailed acceptance criteria, maps edge cases, and defines functional requirements. Works to the Definition of Ready. | Active |
+| **In PM analysis** | Product owner assesses business value, alignment with the roadmap, and user need. Sets the high-level goal for the ticket. | Active |
+| **Ready for design** | Ticket is ready for UCD input. Product owner manages priority and ensures designers are working on the highest-value items. | Waiting |
+| **In design** | Interaction designer, service designer, or user researcher works on the ticket – user flows, interface designs, or technical design as appropriate. | Active |
+| **Design approved** | Product owner reviews completed designs against the original goal and approves or returns for revision. | Active |
+| **In business analysis** | Business analyst writes detailed acceptance criteria, maps edge cases, and defines functional requirements. Works to the Definition of Ready. | Active |
 | **Ready for refinement** | Ticket is fully documented and ready for the team to review, question, and estimate at the next refinement session. | Waiting |
