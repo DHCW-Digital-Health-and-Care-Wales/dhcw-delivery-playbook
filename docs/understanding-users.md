@@ -25,9 +25,9 @@ Where it helps the team hold a shared picture of who we're designing for, we bui
 
 ## Who does the research
 
-User research is a profession in its own right. The **User Researcher** is a GDaD role and an attached capability on the team, working alongside the interaction, service, and content designers. They plan and run research, involve the whole team in it, and help everyone make sense of what people tell us.
+User research is a profession in its own right. The **user researcher** is a GDaD role and an attached capability on the team, working alongside the interaction, service, and content designers. They plan and run research, involve the whole team in it, and help everyone make sense of what people tell us.
 
-Research works best as a team sport. The strongest teams don't send the researcher off alone and wait for a report. Engineers, product owners, and delivery managers watch sessions, take notes, and hear users in their own words. When the whole team has seen a real person struggle with a screen, there's little left to argue about.
+Research works best as a team sport. The strongest teams don't send the researcher off alone and wait for a report. engineers, product owners, and delivery managers watch sessions, take notes, and hear users in their own words. When the whole team has seen a real person struggle with a screen, there's little left to argue about.
 
 ## Testing with real users
 

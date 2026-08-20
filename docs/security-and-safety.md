@@ -46,7 +46,7 @@ Many DHCW services are health IT systems that clinicians rely on to make decisio
 - **DCB0129** covers the manufacturer of a health IT system, which is us when we build one.
 - **DCB0160** covers the organisation deploying and using it.
 
-Meeting them is real work that runs through the whole build. A named, trained **Clinical Safety Officer** leads it. The team keeps a clinical safety case and a hazard log: a living record of what could go wrong for a patient, how likely and how serious it is, and what we've done to reduce the risk. You build the hazard log as you design and change the service, and you keep it current in live. When a change could affect patient safety, you assess it before it ships.
+Meeting them is real work that runs through the whole build. A named, trained **clinical safety officer** leads it. The team keeps a clinical safety case and a hazard log: a living record of what could go wrong for a patient, how likely and how serious it is, and what we've done to reduce the risk. You build the hazard log as you design and change the service, and you keep it current in live. When a change could affect patient safety, you assess it before it ships.
 
 ## Ethics throughout
 

@@ -9,7 +9,7 @@ A work item is ready for sprint planning when it meets all of the following crit
 - [ ] The work item is written clearly, and the team understands it
 - [ ] Acceptance criteria are defined and testable (Given / When / Then format recommended)
 - [ ] The expected user or service outcome is stated on the work item, in terms specific enough to check whether it has been achieved
-- [ ] Priority is set by the Product Owner
+- [ ] Priority is set by the product owner
 - [ ] Dependencies are identified and noted on the work item, and resolved where possible
 - [ ] Designs or wireframes are attached where the work item has a user-facing interface
 - [ ] Welsh Language requirements for any user-facing content have been considered

@@ -6,13 +6,13 @@ Everything the team does is tracked in Azure DevOps. The work item hierarchy bel
 
 | Level | Type | Description | Horizon | Owner |
 | --- | --- | --- | --- | --- |
-| 1 | **Epic** | A substantial strategic initiative or major investment area. | 1 month+ | Product Owner |
-| 2 | **Feature** | A distinct, functional component of an Epic. Delivers meaningful value when complete. | 1–6 sprints | Product Owner |
+| 1 | **Epic** | A substantial strategic initiative or major investment area. | 1 month+ | product owner |
+| 2 | **Feature** | A distinct, functional component of an Epic. Delivers meaningful value when complete. | 1–6 sprints | product owner |
 | 3 | **User Story** | Describes what needs to be built to unlock user value. Written from the user's perspective. | Within sprint | Product team |
 | 3 | **Bug** | Incorrect or broken behaviour in the system that needs fixing. | Within sprint | Product team |
 | 3 | **Spike** | Research or investigation to reduce uncertainty before building. Must have a clear outcome and be time-boxed. | Within sprint | Product team |
 | 3 | **Task** | Work that does not deliver a direct user-facing feature: training, continuous improvement, documentation, or technical maintenance. | Within sprint | Product team |
-| 4 | **Sub-task (optional)** | Breakdown of steps within a user story. Use sparingly: if a story needs more than three sub-tasks, it is probably too large. | Within sprint | Engineers |
+| 4 | **Sub-task (optional)** | Breakdown of steps within a user story. Use sparingly: if a story needs more than three sub-tasks, it is probably too large. | Within sprint | engineers |
 
 ## Tagging user stories and epics
 

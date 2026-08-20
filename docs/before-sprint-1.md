@@ -48,7 +48,7 @@ DHCW teams use a consistent tooling stack to support collaboration and delivery.
 | **Azure DevOps** | Source of truth for all work tracking. Every ticket, sprint, and delivery plan lives here. If it's not in ADO, it doesn't exist. |
 | **GitHub** | Source code, version control, pull requests, and CI/CD pipelines. DHCW teams are migrating to GitHub as the primary code platform. GitHub Copilot is available for teams that are ready to use it, in line with the AI Engineering Strategy. |
 | **Miro** | Virtual whiteboard for retrospectives, journey mapping, architecture sketching, and workshops. Teams use Miro for collaborative sessions; working decisions should be captured in ADO or written documentation. |
-| **Figma** | DHCW uses a dual design system approach that connects Figma-based design with coded components, keeping UCD and engineering working from the same foundation. Designers can prototype and iterate rapidly without writing code, test concepts with users at low cost, and improve in real time based on feedback. Engineers use the Figma library as a visual reference for design intent, reducing ambiguity when building. |
+| **Figma** | DHCW uses a dual design system approach that connects Figma-based design with coded components, keeping UCD and engineering working from the same foundation. Designers can prototype and iterate rapidly without writing code, test concepts with users at low cost, and improve in real time based on feedback. engineers use the Figma library as a visual reference for design intent, reducing ambiguity when building. |
 | **Component Library (GitHub)** | The coded component library available through GitHub. Prototypes built in code are more realistic, which produces better usability testing results and sharper design decisions. Reusable coded components mean engineers spend less time writing UI code and more time on the parts of the product that require bespoke work. Because prototypes and final builds share the same components, the gap between what was tested and what gets shipped is much smaller. Together with Figma, the two layers reduce rework, increase visibility of what already exists across the portfolio, and give both UCD and engineering teams a shared resource to build from. |
 
 ## Sprint 0: launching a new team
@@ -57,7 +57,7 @@ Sprint 0 is the setup phase before delivery begins. It runs for two to three wee
 
 ### Week 1 – infrastructure and alignment
 
-- Delivery Manager, Product Owner, and Lead Software Engineer configure Azure DevOps, link to GitHub, provision environments, and set up Miro
+- delivery manager, product owner, and lead software engineer configure Azure DevOps, link to GitHub, provision environments, and set up Miro
 - Grant team access to all tools and confirm Welsh Language and accessibility commitments are understood
 - Hold an in-person kick-off workshop. Run the Team Charter workshop. Agree a draft Definition of Ready and Definition of Done
 - Confirm alignment to the Digital Service Standard for Wales using the [service standard self-assessment](https://nhswales365.sharepoint.com/sites/DHC_UCD/SitePages/Service-standard-self-assessment.aspx) (NHS Wales sign-in required), and identify which phase the product is in
@@ -71,7 +71,7 @@ Sprint 0 is the setup phase before delivery begins. It runs for two to three wee
 
 ### Week 3 – first sprint
 
-- Delivery Manager sends calendar invites for all sprint ceremonies
+- delivery manager sends calendar invites for all sprint ceremonies
 - First Sprint Planning: agree the sprint goal and pull a sprint backlog. Sprint 1 is typically heavier on spikes as the team learns the codebase and system
 - Activate the ADO sprint board and the GitHub repository
 
