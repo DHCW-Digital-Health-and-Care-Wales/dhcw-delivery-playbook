@@ -32,13 +32,13 @@ A delivery plan is the checklist of everything beyond the code that has to be tr
 
 ## RAID management
 
-The RAID Log is a shared record of the variables that could pull delivery off track. It is owned by the Delivery Manager but maintained by the whole team. Keep it live and up to date.
+The RAID Log is a shared record of the variables that could pull delivery off track. It is owned by the delivery manager but maintained by the whole team. Keep it live and up to date.
 
 | Type | Definition | What to do with it |
 | --- | --- | --- |
 | **Risk** | A potential future event that could knock delivery off course. | Assign an owner. Define a mitigation. Review at each retrospective. |
 | **Assumption** | Something we believe to be true that we haven't yet verified. | Validate it as early as possible. If it proves false, reassess. |
-| **Issue** | An active problem that is blocking or slowing delivery now. | Escalate immediately. The Delivery Manager is accountable for resolution. |
+| **Issue** | An active problem that is blocking or slowing delivery now. | Escalate immediately. The delivery manager is accountable for resolution. |
 | **Dependency** | A deliverable from another team or supplier that we need to complete our work. | Track it explicitly. Name the owner in the other team. Flag if it slips. |
 
 ## Decision logs

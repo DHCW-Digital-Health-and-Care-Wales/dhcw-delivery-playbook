@@ -16,11 +16,11 @@ Teams are expected to be self-organising. The people closest to the work make th
 
 | GDaD role | DHCW band | Purpose |
 | --- | --- | --- |
-| **Product Owner** | Band 6–8A | Maximises the value of the product. Owns the backlog, defines priorities, and represents user and business needs to the team. The Product Owner is the decision-maker on what gets built and in what order, and is a core member present at every phase. |
-| **Delivery Manager** | Band 6–8A | Optimises how the team works, removes blockers, and coaches the team in agile practices. Runs the team's ceremonies and protects the team from external interruptions. The Delivery Manager serves the team, and is a core member present at every phase. |
-| **Senior Software Engineer** | Band 7 | Owns the technical vision and architectural integrity of the product. Mentors the engineering team, evaluates feasibility, and works closely with the Product Owner to ensure technical investment is prioritised alongside feature delivery. |
-| **Software Engineer** | Band 4–6 | Designs, builds, and maintains production-grade code. Writes tests, reviews colleagues' code, and takes shared responsibility for the quality of what the team ships. Engineers at DHCW are expected to contribute to the full delivery lifecycle, not only to coding tasks. |
-| **Test Engineer** | Band 4–7 | Quality is a whole-team responsibility. Test Engineers bring specialist skills in test strategy, automation, and exploratory testing. They help the team build quality in from the start. |
+| **product owner** | Band 6–8A | Maximises the value of the product. Owns the backlog, defines priorities, and represents user and business needs to the team. The product owner is the decision-maker on what gets built and in what order, and is a core member present at every phase. |
+| **delivery manager** | Band 6–8A | Optimises how the team works, removes blockers, and coaches the team in agile practices. Runs the team's ceremonies and protects the team from external interruptions. The delivery manager serves the team, and is a core member present at every phase. |
+| **senior software engineer** | Band 7 | Owns the technical vision and architectural integrity of the product. Mentors the engineering team, evaluates feasibility, and works closely with the product owner to ensure technical investment is prioritised alongside feature delivery. |
+| **software engineer** | Band 4–6 | Designs, builds, and maintains production-grade code. Writes tests, reviews colleagues' code, and takes shared responsibility for the quality of what the team ships. Engineers at DHCW are expected to contribute to the full delivery lifecycle, not only to coding tasks. |
+| **test engineer** | Band 4–7 | Quality is a whole-team responsibility. Test engineers bring specialist skills in test strategy, automation, and exploratory testing. They help the team build quality in from the start. |
 
 !!! info "A note on team size and composition"
     DHCW product teams typically include 4 software engineers and 2 test engineers per team, supported by a product owner and delivery manager as the stable core. Attached capabilities may be shared across teams or brought in for specific pieces of work. Where roles are shared, the team must agree clearly on how time is split and who owns each responsibility.
@@ -39,14 +39,14 @@ Attached capabilities join the team for a period, contribute as full members whi
 
 | GDaD role | DHCW band | Purpose |
 | --- | --- | --- |
-| **User Researcher** | Band 6–8A | Plans and runs research to understand users and their needs, and brings the whole team into it. Uses a mix of methods across the lifecycle, from early discovery interviews to usability testing and continued research in live. Helps the team turn what users say and do into clear user needs that shape the backlog. |
-| **Interaction Designer** | Band 6–8A | Works out the best way to let users interact with services, in terms of both overall flow and individual design elements. Works with Product Owners and Engineers to ensure components and interactions are well designed and achievable. |
-| **Service Designer** | Band 7–8A | Designs the end-to-end journey of a service, making sure it meets user needs across every touchpoint, channel, and team boundary. Works with Product Owners, Delivery Managers, clinical stakeholders, and members of the public to map how people experience a service in full, not just the digital parts, and to identify where design changes will have the most impact on outcomes. |
-| **Content Designer** | Band 6–8A | Makes sure the right information reaches the right people in the right way. Works with user researchers and interaction designers to understand what users need to know, then designs content that is clear, accessible, and written in plain language. At DHCW, this includes ensuring all user-facing content meets Welsh Language Standards and works equally well in both languages from the outset. |
-| **Business Analyst** | Band 6–7 | Bridges product-level requirements and technical execution. Collaborates with the whole team to develop user stories, acceptance criteria, and process flows. Supports refinement, but story creation is a team activity. |
-| **Solution Architect** | Band 7 and above | Shapes the technical approach for a specific service, balancing user need, feasibility, and fit with existing systems. Joins the team to make and record significant design decisions, particularly during discovery and alpha. |
-| **Technical Architect** | Band 7 and above | Guides detailed technical design and the choice of technologies, patterns, and standards. Works with the engineering capability at points of significant design decision and where work touches shared platforms. |
-| **Enterprise Architect** | Band 8A and above | Aligns individual services with the wider technology landscape, national infrastructure, and interoperability standards. Engages when a team is making choices that affect, or are affected by, systems beyond its own service. |
+| **user researcher** | Band 6–8A | Plans and runs research to understand users and their needs, and brings the whole team into it. Uses a mix of methods across the lifecycle, from early discovery interviews to usability testing and continued research in live. Helps the team turn what users say and do into clear user needs that shape the backlog. |
+| **interaction designer** | Band 6–8A | Works out the best way to let users interact with services, in terms of both overall flow and individual design elements. Works with product owners and engineers to ensure components and interactions are well designed and achievable. |
+| **service designer** | Band 7–8A | Designs the end-to-end journey of a service, making sure it meets user needs across every touchpoint, channel, and team boundary. Works with product owners, delivery managers, clinical stakeholders, and members of the public to map how people experience a service in full, not just the digital parts, and to identify where design changes will have the most impact on outcomes. |
+| **content designer** | Band 6–8A | Makes sure the right information reaches the right people in the right way. Works with user researchers and interaction designers to understand what users need to know, then designs content that is clear, accessible, and written in plain language. At DHCW, this includes ensuring all user-facing content meets Welsh Language Standards and works equally well in both languages from the outset. |
+| **business analyst** | Band 6–7 | Bridges product-level requirements and technical execution. Collaborates with the whole team to develop user stories, acceptance criteria, and process flows. Supports refinement, but story creation is a team activity. |
+| **solution architect** | Band 7 and above | Shapes the technical approach for a specific service, balancing user need, feasibility, and fit with existing systems. Joins the team to make and record significant design decisions, particularly during discovery and alpha. |
+| **technical architect** | Band 7 and above | Guides detailed technical design and the choice of technologies, patterns, and standards. Works with the engineering capability at points of significant design decision and where work touches shared platforms. |
+| **enterprise architect** | Band 8A and above | Aligns individual services with the wider technology landscape, national infrastructure, and interoperability standards. Engages when a team is making choices that affect, or are affected by, systems beyond its own service. |
 
 !!! info "Allocation is membership"
     At DHCW, architectural oversight is coordinated through the Technical Design and Assurance function, and teams should involve their allocated architect early, before committing to major technical direction. While an architect is allocated to a team, they are a member of that team: they attend the ceremonies that are relevant to their work and share responsibility for the outcome, in the same way as any other attached capability.
@@ -61,10 +61,10 @@ The table below shows how the core and attached capabilities engage across the s
 
 | Capability | Discovery | Alpha | Beta | Live |
 | --- | --- | --- | --- | --- |
-| Product Owner | Core | Core | Core | Core |
-| Delivery Manager | Core | Core | Core | Core |
+| product owner | Core | Core | Core | Core |
+| delivery manager | Core | Core | Core | Core |
 | Engineering | Core | Core | Core | Core |
 | Test | Core | Core | Core | Core |
 | UCD roles | Attached, heaviest | Attached, heaviest | Attached | Attached, lighter |
-| Business Analyst | Attached, heaviest | Attached | Attached | Attached, lighter |
+| business analyst | Attached, heaviest | Attached | Attached | Attached, lighter |
 | Architecture roles | Attached, heaviest | Attached, heaviest | Attached | Attached, lighter |

@@ -21,7 +21,7 @@ Every bug ticket must contain enough information for the team to replicate and d
 
 ## Triage
 
-After a bug is created, the Product Owner, a Software Engineer, and a Test Engineer triage it together. They agree:
+After a bug is created, the product owner, a software engineer, and a test engineer triage it together. They agree:
 
 - **Severity:** Critical, Major, Minor, or Trivial – how serious is the defect?
 - **Priority:** Immediate, High, Medium, or Low – how urgently must it be fixed?
@@ -31,7 +31,7 @@ After a bug is created, the Product Owner, a Software Engineer, and a Test Engin
 
 Critical and High priority bugs are pulled into the active sprint immediately. The team pauses **all** other work to address them, and **every member** of the team works on the bug until it is fixed (this is called swarming). A capacity buffer for in-sprint bugs is a sensible planning practice.
 
-Medium and Low priority bugs are routed to the product backlog and prioritised by the Product Owner for a future sprint.
+Medium and Low priority bugs are routed to the product backlog and prioritised by the product owner for a future sprint.
 
 |  | P1: Immediate | P2: High | P3: Medium | P4: Low |
 | --- | --- | --- | --- | --- |
