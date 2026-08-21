@@ -6,7 +6,7 @@ Helping teams thrive so they can make digital a force for good in health and car
     Great digital services are created by great teams. This playbook describes how DHCW builds healthy, empowered and multidisciplinary teams, and how those teams design, deliver and operate digital products and services that improve health and care outcomes across Wales.
 
 !!! note "Draft for Discussion"
-    **Version 0.7** &middot; 28 July 2026 &middot; Owner: Digital Health and Care Wales
+    **Version 0.8** &middot; 20 August 2026 &middot; Owner: Digital Health and Care Wales
 
     This is a living document. It will improve as more teams use it and contribute back.
 
