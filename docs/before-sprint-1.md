@@ -13,7 +13,7 @@ As a team, create your own identity within the framework that DHCW provides. Agr
 A short statement that explains why the team exists and what value it provides. This should link back to DHCW's vision to "Make Digital a Force for Good in Health and Care". Everyone in the team should be able to say it. A good vision names the user and the outcome:
 
 !!! example "Example – Vaccinations"
-    Every vaccination given in Wales is recorded once, appears in the record within minutes, and can be seen by the clinicians and families who need it.
+    To provide one national digital service, from stock to surveillance. Finding, protecting, remembering, and learning, so that vaccination in Wales stays prudent, equitable, and evidence-led.
 
 ### Core values
 
