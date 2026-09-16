@@ -1,0 +1,7 @@
+Open Government Licence v3.0
+
+This documentation is copyright Digital Health and Care Wales 2026 and is
+licensed under the Open Government Licence v3.0, except where otherwise stated.
+
+To view this licence, visit:
+https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
