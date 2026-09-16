@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Page Moved | DHCW Product and Service Delivery Playbook</title>
   <meta name="robots" content="noindex, follow">
-  <!-- Default fallback refresh if JS is completely disabled; removed by script below once JS confirms it will handle the redirect -->
-  <meta id="metaRefresh" http-equiv="refresh" content="5; url=https://gigcymru.github.io/dhcw-delivery-playbook/">
+  <!-- Default fallback refresh if JS is completely disabled -->
+  <noscript>
+    <meta http-equiv="refresh" content="5; url=https://gigcymru.github.io/dhcw-delivery-playbook/">
+  </noscript>
   <style>
     :root {
       --navy: #1b365d;
@@ -42,6 +44,7 @@
       color: #ffffff;
       padding: 1rem 1.5rem;
       border-bottom: 4px solid var(--navy-dark);
+      text-align: center;
     }
 
     .header-inner {
@@ -49,6 +52,8 @@
       margin: 0 auto;
       display: flex;
       align-items: center;
+      justify-content: center;
+      text-align: center;
       gap: 1rem;
     }
 
@@ -75,20 +80,6 @@
       width: 100%;
       padding: 2.25rem;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-    }
-
-    .badge {
-      display: inline-block;
-      background-color: var(--bg);
-      color: var(--navy);
-      border: 1px solid var(--border);
-      font-size: 0.8125rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      padding: 0.25rem 0.625rem;
-      border-radius: 3px;
-      margin-bottom: 1rem;
     }
 
     h1 {
@@ -167,17 +158,15 @@
 <body>
   <header>
     <div class="header-inner">
-      <div class="org-title">GIG Cymru / NHS Wales</div>
+      <div class="org-title">We've moved | DHCW Product and Service Delivery Playbook</div>
     </div>
   </header>
 
   <main>
     <div class="card" role="region" aria-labelledby="move-heading">
-      <span class="badge">Page Moved</span>
       <h1 id="move-heading">This page has moved</h1>
       <p>
-        The <strong>DHCW Product and Service Delivery Playbook</strong> has moved to the official 
-        NHS Wales / GIG Cymru GitHub organisation.
+        The <strong>DHCW Product and Service Delivery Playbook</strong> has moved.
       </p>
 
       <div class="target-box">
@@ -199,12 +188,6 @@
     (function() {
       var NEW_DOMAIN = "https://gigcymru.github.io";
       var REPO_PREFIX = "/dhcw-delivery-playbook";
-
-      // JS is running, so let the timer below drive the redirect instead of racing the meta refresh
-      var metaRefresh = document.getElementById("metaRefresh");
-      if (metaRefresh) {
-        metaRefresh.remove();
-      }
 
       // Current full path e.g. /dhcw-delivery-playbook/team-roles/
       var path = window.location.pathname || "";
@@ -231,6 +214,9 @@
 
       var remaining = 5;
       var countdownEl = document.getElementById("countdown");
+      if (countdownEl) {
+        countdownEl.textContent = remaining;
+      }
 
       var timer = setInterval(function() {
         remaining -= 1;
